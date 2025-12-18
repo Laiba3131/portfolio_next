@@ -16,11 +16,11 @@ export default function Home() {
         <Navbar />
         <Banner />
       </main>
+      <TechSlider />
       <AboutMe />
       <Experience />
       <Projects />
       <Services />
-      <TechSlider />
       <Contact />
       <Copyright />
     </>
