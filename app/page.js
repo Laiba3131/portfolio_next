@@ -3,6 +3,11 @@ import Banner from "@/components/Banner";
 import Copyright from "@/components/Copyright";
 import Navbar from "@/components/Navbar";
 import TechSlider from "@/components/TechSlider";
+import AboutMe from "@/components/AboutMe";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
+import Services from "@/components/Services";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -11,7 +16,12 @@ export default function Home() {
         <Navbar />
         <Banner />
       </main>
+      <AboutMe />
+      <Experience />
+      <Projects />
+      <Services />
       <TechSlider />
+      <Contact />
       <Copyright />
     </>
   );
