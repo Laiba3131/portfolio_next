@@ -40,7 +40,7 @@ export default function Navbar() {
                         >
                             {item}
                             {item === "Home" && (
-                                <span className="absolute left-1/2 -bottom-1 w-6 h-[2px] bg-[#B18325] -translate-x-1/2" />
+                                <span className="absolute left-1/2 -bottom-1 w-6 h-0.5 bg-[#B18325] -translate-x-1/2" />
                             )}
                         </button>
                     ))}

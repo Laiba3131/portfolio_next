@@ -20,12 +20,13 @@ function Banner() {
     return (
         <>
             <div className='h-screen pt-10 w-full'>
-                <div className='grid lg:grid-cols-2 grid-cols-1 h-full items-center'>
+                <div className='pt-20 lg:pt-0 grid lg:grid-cols-2 grid-cols-1 h-full items-center'>
                     <div>
                         <motion.h6
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6 }}
+                            className='mb-3'
                         >
                             <span className="bg-[#B18325]/20 text-[#D7BF75] border border-[#B18325]/30 text-base px-3 py-1 rounded-sm tracking-[4px] uppercase backdrop-blur-sm">
                                 {userDetails.name}
@@ -36,9 +37,9 @@ function Banner() {
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.1 }}
-                            className="uppercase text-white text-[70px] font-bold leading-tight"
+                            className="uppercase text-white lg:text-[70px] md:text-[40px] text-[30px] font-bold leading-tight"
                         >
-                            Hey! I am <span className="gold-text-gradient">Hina</span>
+                            <span className="lg:text-[70px] md:text-[40px] text-[30px]">Hey! I am </span><span className="gold-text-gradient">Hina</span>
                         </motion.h1>
 
                         <motion.h2
@@ -46,7 +47,7 @@ function Banner() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.2 }}
                         >
-                            <span className="text-[#D7BF75] font-bold text-[70px] uppercase leading-[76px]">
+                            <span className="text-[#D7BF75] font-bold lg:text-[70px] md:text-[40px] text-[30px] uppercase lg:leading-[76px] leading-[36px]">
                                 I am a {' '}
                                 <Typewriter
                                     words={[
@@ -62,14 +63,14 @@ function Banner() {
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.3 }}
-                            className="mt-4 text-gray-300 text-[20px] max-w-xl"
+                            className="mt-4 text-gray-300 text-justify text-[16px] lg:text-[20px] max-w-xl"
                         >
                             {userDetails.description}
                         </motion.p>
 
                         <div className='flex items-center gap-4 mt-8'>
                             <button
-                                className='flex items-center gap-3 uppercase px-8 py-4 bg-[#B18325] text-black font-bold rounded-full cursor-pointer hover:bg-[#D7BF75] transition-all duration-300 shadow-[0_0_20px_rgba(177,131,37,0.4)]'
+                                className='text-xs lg:text-lg flex items-center gap-3 uppercase px-2 py-3 lg:px-8 lg:py-4 bg-[#B18325] text-black font-bold rounded-full cursor-pointer hover:bg-[#D7BF75] transition-all duration-300 shadow-[0_0_20px_rgba(177,131,37,0.4)]'
                             >
                                 Get In Touch
                                 <ArrowRight className='inline-block' size={20} />
