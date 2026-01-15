@@ -19,7 +19,7 @@ function Banner() {
 
     return (
         <>
-            <div id="home" className='h-screen pt-10 w-full'>
+            <div id="home" className='min-h-screen pt-22 w-full '>
                 <div className='pt-20 lg:pt-0 grid lg:grid-cols-2 grid-cols-1 h-full items-center'>
                     <div>
                         <motion.h6
@@ -89,8 +89,19 @@ function Banner() {
                             </Link>
                         </div>
                     </div>
-                    <div>
-                        {/* <img src={userDetails.image} alt="Profile Picture" className='' /> */}
+
+                    <div className="h-[400px] relative lg:h-full flex items-end justify-center lg:justify-end">
+                        {/* Static Gold Background Shape */}
+                        <div className="absolute top-0 right-1/2 lg:-right-20 h-full w-full lg:w-[99%] bg-[#B18325] lg:rounded-l-[50%] lg:rounded-r-[0%] rounded-[50%] z-0"></div>
+
+                        {/* Profile Image */}
+                        <div className="relative z-10 h-[70%] lg:h-[90%] w-full flex justify-center">
+                            <img
+                                src={userDetails.image}
+                                alt="Hina Shahzadi"
+                                className="h-full w-auto object-contain drop-shadow-2xl"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
