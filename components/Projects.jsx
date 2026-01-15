@@ -5,53 +5,53 @@ import { Button } from '@/components/ui/button';
 export default function Projects() {
     const projects = [
         {
-            title: "E-Commerce Mobile App",
-            description: "A full-featured mobile shopping application built with Flutter. Features include user authentication, product search, cart management, and payment gateway integration.product search, cart management, and payment gateway integration.product search, cart management, and payment gateway integration.product search, cart management, and payment gateway integration.",
-            image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1974&auto=format&fit=crop",
-            tech: ["Flutter", "Firebase", "Stripe", "Provider"],
-            liveLink: "#",
+            title: "Cinewoo",
+            description: "A dynamic streaming platform built with Next.js. Features seamless navigation and a rich user interface using PrimeReact and Tailwind CSS.",
+            image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925&auto=format&fit=crop",
+            tech: ["Next.js", "Tailwind", "PrimeReact"],
+            liveLink: "https://cinewoo.com/",
             sourceLink: "#"
         },
         {
-            title: "Task Management Dashboard",
-            description: "A productivity tool for teams to manage tasks and projects. Includes real-time updates, drag-and-drop boards, and team collaboration features.",
-            image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1974&auto=format&fit=crop",
-            tech: ["React", "Next.js", "TailwindCSS", "Node.js"],
-            liveLink: "#",
+            title: "Reminder",
+            description: "A task management and reminder application designed for efficiency. Built with React JS and Core UI for a clean, responsive experience.",
+            image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop",
+            tech: ["React.js", "Core UI"],
+            liveLink: "https://reminder-link.com/",
             sourceLink: "#"
         },
         {
-            title: "Health & Fitness Tracker",
-            description: "A comprehensive health tracking app that monitors workouts, nutrition, and sleep patterns. Visualizes data with interactive charts and graphs.",
-            image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1974&auto=format&fit=crop",
-            tech: ["Flutter", "SQFlite", "Charts", "Health API"],
-            liveLink: "#",
+            title: "CoinoSwap",
+            description: "A cryptocurrency exchange interface facilitating seamless token swaps. Optimized for performance and real-time updates using React.js.",
+            image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?q=80&w=2069&auto=format&fit=crop",
+            tech: ["React.js", "Redux", "Web3"],
+            liveLink: "https://test.coinoswap.com/",
             sourceLink: "#"
         },
         {
-            title: "E-Commerce Mobile App",
-            description: "A full-featured mobile shopping application built with Flutter. Features include user authentication, product search, cart management, and payment gateway integration.product search, cart management, and payment gateway integration.product search, cart management, and payment gateway integration.product search, cart management, and payment gateway integration.",
-            image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1974&auto=format&fit=crop",
-            tech: ["Flutter", "Firebase", "Stripe", "Provider"],
-            liveLink: "#",
+            title: "Address Offices",
+            description: "A directory and location service platform. Developed with standard web technologies ensuring high compatibility and speed.",
+            image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
+            tech: ["HTML", "CSS", "Bootstrap", "JS"],
+            liveLink: "https://addressoffices.com/",
             sourceLink: "#"
         },
         {
-            title: "Task Management Dashboard",
-            description: "A productivity tool for teams to manage tasks and projects. Includes real-time updates, drag-and-drop boards, and team collaboration features.",
-            image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1974&auto=format&fit=crop",
-            tech: ["React", "Next.js", "TailwindCSS", "Node.js"],
-            liveLink: "#",
+            title: "VIP Autolink",
+            description: "An automotive inventory and listing platform. Leverages Next.js and Shadcn for a modern, accessible, and performant user interface.",
+            image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1966&auto=format&fit=crop",
+            tech: ["Next.js", "Shadcn", "CSS"],
+            liveLink: "http://vipstage.site/",
             sourceLink: "#"
         },
-        // {
-        //     title: "Health & Fitness Tracker",
-        //     description: "A comprehensive health tracking app that monitors workouts, nutrition, and sleep patterns. Visualizes data with interactive charts and graphs.",
-        //     image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1974&auto=format&fit=crop",
-        //     tech: ["Flutter", "SQFlite", "Charts", "Health API"],
-        //     liveLink: "#",
-        //     sourceLink: "#"
-        // }
+        {
+            title: "Houbara Fund",
+            description: "A conservation organization website focusing on wildlife preservation. Features a clean layout and responsive design.",
+            image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop",
+            tech: ["HTML", "CSS", "Bootstrap"],
+            liveLink: "https://conservationbreedingcentre.com.pk/",
+            sourceLink: "#"
+        }
     ];
 
     return (

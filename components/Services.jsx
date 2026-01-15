@@ -5,8 +5,8 @@ export default function Services() {
     const services = [
         {
             icon: <Smartphone className="w-10 h-10 text-[#B18325]" />,
-            title: "Mobile App Development",
-            description: "Building high-performance, cross-platform mobile applications using Flutter and React Native. I ensure smooth performance and native-like feel on both iOS and Android."
+            title: "Responsive Web Design",
+            description: "Creating fully responsive and mobile-friendly websites that look great on all devices. Ensuring seamless user experience across desktops, tablets, and phones."
         },
         {
             icon: <Layout className="w-10 h-10 text-[#D7BF75]" />,

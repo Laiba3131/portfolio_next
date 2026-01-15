@@ -52,7 +52,7 @@ export default function AboutMe() {
           </div>
 
           <p className="text-gray-300 text-justify text-[16px] lg:text-lg leading-relaxed">
-            I am a passionate Frontend Developer specialized in building high-performance, visually stunning web and mobile applications. With expertise in React, Next.js, and modern CSS frameworks, I create seamless user interfaces that are both beautiful and functional. My focus is on delivering high-quality code and pixel-perfect designs.
+            Dedicated and results-driven Front End Developer with proven 3 years of experience and a record of creating dynamic and visually stunning web applications. My expertise lies in React.js, Next.js, Redux, API integration, Tailwind, JavaScript, CSS, Bootstrap, and HTML. I have rich experience in project development and a deep understanding of software management, testing, and debugging.
           </p>
 
           <div className="grid grid-cols-2 gap-8 pt-6">
@@ -72,9 +72,10 @@ export default function AboutMe() {
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">React.js</span>
               <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Next.js</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Tailwind CSS</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Redux</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Tailwind</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Bootstrap</span>
               <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">JavaScript</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Framer Motion</span>
             </div>
           </div>
         </div>

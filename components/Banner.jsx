@@ -11,7 +11,7 @@ function Banner() {
         name: "Hina Shahzadi",
         title: "Frontend Developer",
         image: "/images/profile.png",
-        description: "Im a passionate Frontend Developer who loves building clean, responsive,and interactive user interfaces. With strong expertise in React, Next.js, and modern CSS frameworks, I focus on creating seamless user experiences that are both visually appealing and performance-driven.",
+        description: "Dedicated and results-driven Front End Developer with 3+ years of experience in creating dynamic and visually stunning web applications. specialized in React.js, Next.js, Redux, and API integration.",
         linkedIn: "https://www.linkedin.com/in/hina-shahzadi-701528294/",
         github: "#",
         facebook: "#",

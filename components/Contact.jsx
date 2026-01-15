@@ -22,8 +22,8 @@ export default function Contact() {
                         </div>
                         <h3 className="text-xl font-bold mb-2">Email Me</h3>
                         <p className="text-gray-400 mb-4 text-sm">I'll get back to you within 24 hours.</p>
-                        <a href="mailto:hello@example.com" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors">
-                            hello@example.com
+                        <a href="mailto:hinashahzadi4321@gmail.com" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors break-all">
+                            hinashahzadi4321@gmail.com
                         </a>
                     </div>
 
@@ -33,8 +33,8 @@ export default function Contact() {
                         </div>
                         <h3 className="text-xl font-bold mb-2">Call Me</h3>
                         <p className="text-gray-400 mb-4 text-sm">Available Mon-Fri, 9am - 6pm.</p>
-                        <a href="tel:+1234567890" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors">
-                            +1 234 567 890
+                        <a href="tel:+923046498586" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors">
+                            +92 304 6498586
                         </a>
                     </div>
 
@@ -45,7 +45,7 @@ export default function Contact() {
                         <h3 className="text-xl font-bold mb-2">Location</h3>
                         <p className="text-gray-400 mb-4 text-sm">Remote / Hybrid</p>
                         <span className="text-[#D7BF75] font-medium text-lg">
-                            San Francisco, CA
+                            Lahore, Pakistan
                         </span>
                     </div>
                 </div>
@@ -67,9 +67,11 @@ export default function Contact() {
                         </a>
                     </div>
 
-                    <Button className="rounded-full bg-[#B18325] hover:bg-[#D7BF75] text-black font-bold text-lg px-10 py-6 mt-4 shadow-[0_0_20px_rgba(177,131,37,0.3)] transition-all">
-                        Download CV
-                    </Button>
+                    <a href="/Hina-Shahzadi-cv.pdf" download="Hina-Shahzadi-cv.pdf">
+                        <Button className="rounded-full bg-[#B18325] hover:bg-[#D7BF75] text-black font-bold text-lg px-10 py-6 mt-4 shadow-[0_0_20px_rgba(177,131,37,0.3)] transition-all">
+                            Download CV
+                        </Button>
+                    </a>
                 </div>
             </div>
         </section>

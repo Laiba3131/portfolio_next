@@ -3,22 +3,22 @@ import React from 'react';
 export default function Experience() {
     const experiences = [
         {
-            year: "2023 - Present",
-            title: "Senior Frontend Developer",
-            company: "Tech Solutions Inc.",
-            description: "Leading the frontend team in building scalable web applications using React and Next.js. Improved site performance by 40% and mentored junior developers."
+            year: "Jan 2024 - Present",
+            title: "Frontend Developer",
+            company: "Cyber Advanced Solutions",
+            description: "Building numerous projects using React.js, Next.js, Bootstrap, Tailwind, PrimeReact, and Shadcn. Integrating APIs and delivering real-time data solutions."
         },
         {
-            year: "2021 - 2023",
-            title: "Full Stack Developer",
-            company: "Creative Digital Agency",
-            description: "Developed and maintained multiple client websites and internal tools using the MERN stack. Collaborated with designers to implement pixel-perfect user interfaces."
+            year: "2022 - 2023",
+            title: "Frontend Developer",
+            company: "Techifort",
+            description: "Started as an intern and transitioned to full-time. Developed websites from Figma designs using React JS, Redux, and MySQL. Managed full lifecycle of web projects."
         },
         {
-            year: "2019 - 2021",
-            title: "Junior Web Developer",
-            company: "StartUp Hub",
-            description: "Assisted in the development of a SaaS platform. Wrote clean, maintainable code and participated in code reviews and agile rituals."
+            year: "2018 - 2022",
+            title: "BS Software Engineering",
+            company: "Govt College and University Faisalabad",
+            description: "Graduated with a CGPA of 3.67/4.0. Completed professional development in web technologies and a final year project on School Management System using Laravel."
         }
     ];
 
