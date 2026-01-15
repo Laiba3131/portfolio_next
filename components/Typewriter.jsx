@@ -39,7 +39,7 @@ const Typewriter = ({
     }, [text, isDeleting, wordIndex, words, typingSpeed, deletingSpeed, delayBetweenWords]);
 
     return (
-        <span className="text-[#0788ff] font-bold text-[70px] uppercase leading-[76px]">
+        <span className="gold-text-gradient font-bold text-[70px] uppercase leading-[76px]">
             {text}
             <span className="animate-pulse">|</span>
         </span>

@@ -21,13 +21,13 @@ export default function Navbar() {
     return (
         <>
             <nav
-                className={`w-full fixed top-0 left-0 z-50 px-6 md:px-8 lg:px-20 py-4 flex items-center justify-between shadow-md ${scrolled ? "bg-[#031B2E]/90 backdrop-blur-md shadow-lg" : "bg-transparent"}`}
+                className={`w-full fixed top-0 left-0 z-50 px-6 md:px-8 lg:px-20 py-4 flex items-center justify-between shadow-md ${scrolled ? "bg-black/90 backdrop-blur-md shadow-lg border-b border-[#B18325]/20" : "bg-transparent"}`}
             >
 
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
-                    <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
-                        <span className="text-white font-bold text-2xl">H</span>
+                    <div className="w-12 h-12 bg-[#B18325] rounded-xl flex items-center justify-center shadow-[0_0_15px_rgba(177,131,37,0.5)]">
+                        <span className="text-black font-bold text-2xl">H</span>
                     </div>
                 </div>
 
@@ -36,11 +36,11 @@ export default function Navbar() {
                     {menuItems.map((item) => (
                         <button
                             key={item}
-                            className="relative hover:text-blue-400 transition uppercase"
+                            className="relative hover:text-[#D7BF75] transition uppercase"
                         >
                             {item}
                             {item === "Home" && (
-                                <span className="absolute left-1/2 -bottom-1 w-6 h-[2px] bg-white -translate-x-1/2" />
+                                <span className="absolute left-1/2 -bottom-1 w-6 h-[2px] bg-[#B18325] -translate-x-1/2" />
                             )}
                         </button>
                     ))}
@@ -48,7 +48,7 @@ export default function Navbar() {
 
                 {/* Desktop CTA Button */}
                 <div className="hidden md:block">
-                    <Button className="rounded-full bg-blue-500 hover:bg-blue-600 px-8 py-6 text-white font-bold text-lg">
+                    <Button className="rounded-full bg-[#B18325] hover:bg-[#D7BF75] hover:text-black px-8 py-6 text-white font-bold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(177,131,37,0.3)]">
                         LET’S TALK
                     </Button>
                 </div>
@@ -62,15 +62,15 @@ export default function Navbar() {
                             </button>
                         </SheetTrigger>
 
-                        <SheetContent side="right" className="bg-[#031B2E] border-none mob-nav">
+                        <SheetContent side="right" className="bg-[#0a0a0a] border-l border-[#B18325]/30 mob-nav">
                             <div className="flex flex-col px-6 items-start space-y-6 mt-10 text-white text-lg font-semibold">
                                 {menuItems.map((item) => (
-                                    <button key={item} className="hover:text-blue-400 transition">
+                                    <button key={item} className="hover:text-[#D7BF75] transition">
                                         {item}
                                     </button>
                                 ))}
 
-                                <Button className="mt-4 rounded-full bg-blue-500 hover:bg-blue-600 px-8 py-6 text-white font-bold text-lg">
+                                <Button className="mt-4 rounded-full bg-[#B18325] hover:bg-[#D7BF75] hover:text-black px-8 py-6 text-white font-bold text-lg transition-all duration-300">
                                     LET’S TALK
                                 </Button>
                             </div>

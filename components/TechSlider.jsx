@@ -18,7 +18,7 @@ const techs = [
 export default function TechSlider() {
     return (
         <>
-            <div className="px-6 md:px-10 lg:px-20 bg-[rgba(7,136,255,0.1)] py-10">
+            <div className="px-6 md:px-10 lg:px-20 bg-black/40 py-12 border-y border-[#B18325]/10 backdrop-blur-sm">
                 <Swiper
                     modules={[Autoplay]}
                     loop={true}
@@ -47,11 +47,11 @@ export default function TechSlider() {
                             spaceBetween: 50,
                         },
                     }}
-                    className="py-10"
+                    className="flex items-center"
                 >
                     {techs.map((tech, i) => (
-                        <SwiperSlide key={i} className="flex justify-center items-center">
-                            <Image src={tech.src} alt={tech.name} width={130} height={130} />
+                        <SwiperSlide key={i} className="flex justify-center items-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+                            <Image src={tech.src} alt={tech.name} width={130} height={130} className="filter grayscale invert brightness-200" />
                         </SwiperSlide>
                     ))}
                 </Swiper>

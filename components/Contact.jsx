@@ -4,73 +4,75 @@ import { Button } from '@/components/ui/button';
 
 export default function Contact() {
     return (
-        <section className="w-full py-20 px-6 md:px-10 lg:px-20 bg-[#031B2E] text-white">
+        <section className="w-full py-20 px-6 md:px-10 lg:px-20 bg-black/50 text-white">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
-                    <span className="text-blue-500 font-medium tracking-widest text-sm uppercase">Get In Touch</span>
-                    <h2 className="text-4xl md:text-5xl font-bold mt-2">Let's <span className="text-blue-500">Connect</span></h2>
-                    <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-lg">
+                    <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">Get In Touch</span>
+                    <h2 className="text-4xl md:text-5xl font-bold mt-2">Let's <span className="gold-text-gradient">Connect</span></h2>
+                    <div className="w-20 h-1 bg-[#B18325] mx-auto mt-4 rounded-full"></div>
+                    <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg">
                         I'm currently available for freelance work and full-time opportunities. If you have a project that needs some creative touch, let's talk.
                     </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                    <div className="flex flex-col items-center p-8 bg-[#0A192F] rounded-2xl border border-gray-800 hover:border-blue-500/50 transition duration-300 text-center">
-                        <div className="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center mb-6 text-blue-500">
+                    <div className="flex flex-col items-center p-8 glass-card rounded-2xl border border-[#B18325]/10 hover:border-[#B18325]/50 transition-all duration-300 text-center">
+                        <div className="w-16 h-16 rounded-full bg-[#B18325]/10 flex items-center justify-center mb-6 text-[#B18325]">
                             <Mail className="w-8 h-8" />
                         </div>
                         <h3 className="text-xl font-bold mb-2">Email Me</h3>
-                        <p className="text-gray-400 mb-4">I'll get back to you within 24 hours.</p>
-                        <a href="mailto:hello@example.com" className="text-blue-400 hover:text-blue-300 font-medium text-lg">
+                        <p className="text-gray-400 mb-4 text-sm">I'll get back to you within 24 hours.</p>
+                        <a href="mailto:hello@example.com" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors">
                             hello@example.com
                         </a>
                     </div>
 
-                    <div className="flex flex-col items-center p-8 bg-[#0A192F] rounded-2xl border border-gray-800 hover:border-teal-500/50 transition duration-300 text-center">
-                        <div className="w-16 h-16 rounded-full bg-teal-500/10 flex items-center justify-center mb-6 text-teal-400">
+                    <div className="flex flex-col items-center p-8 glass-card rounded-2xl border border-[#B18325]/10 hover:border-[#B18325]/50 transition-all duration-300 text-center">
+                        <div className="w-16 h-16 rounded-full bg-[#B18325]/10 flex items-center justify-center mb-6 text-[#D7BF75]">
                             <Phone className="w-8 h-8" />
                         </div>
                         <h3 className="text-xl font-bold mb-2">Call Me</h3>
-                        <p className="text-gray-400 mb-4">Available Mon-Fri, 9am - 6pm.</p>
-                        <a href="tel:+1234567890" className="text-teal-400 hover:text-teal-300 font-medium text-lg">
+                        <p className="text-gray-400 mb-4 text-sm">Available Mon-Fri, 9am - 6pm.</p>
+                        <a href="tel:+1234567890" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors">
                             +1 234 567 890
                         </a>
                     </div>
 
-                    <div className="flex flex-col items-center p-8 bg-[#0A192F] rounded-2xl border border-gray-800 hover:border-cyan-500/50 transition duration-300 text-center">
-                        <div className="w-16 h-16 rounded-full bg-cyan-500/10 flex items-center justify-center mb-6 text-cyan-400">
+                    <div className="flex flex-col items-center p-8 glass-card rounded-2xl border border-[#B18325]/10 hover:border-[#B18325]/50 transition-all duration-300 text-center">
+                        <div className="w-16 h-16 rounded-full bg-[#B18325]/10 flex items-center justify-center mb-6 text-[#B18325]">
                             <MapPin className="w-8 h-8" />
                         </div>
                         <h3 className="text-xl font-bold mb-2">Location</h3>
-                        <p className="text-gray-400 mb-4">Remote / Hybrid</p>
-                        <span className="text-cyan-400 font-medium text-lg">
+                        <p className="text-gray-400 mb-4 text-sm">Remote / Hybrid</p>
+                        <span className="text-[#D7BF75] font-medium text-lg">
                             San Francisco, CA
                         </span>
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center space-y-8 p-10 rounded-3xl bg-gradient-to-r from-blue-900/20 to-teal-900/20 border border-white/5">
-                    <h3 className="text-2xl font-bold text-center">Find Me on Social Media</h3>
+                <div className="flex flex-col items-center justify-center space-y-8 p-10 rounded-3xl bg-[#B18325]/5 border border-[#B18325]/20">
+                    <h3 className="text-2xl font-bold text-center">Follow My Journey</h3>
                     <div className="flex gap-6">
-                        <a href="#" className="w-14 h-14 rounded-full bg-[#0A192F] hover:bg-blue-600 border border-gray-700 hover:border-blue-500 flex items-center justify-center transition-all duration-300 text-gray-400 hover:text-white group">
+                        <a href="#" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Linkedin className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
-                        <a href="#" className="w-14 h-14 rounded-full bg-[#0A192F] hover:bg-gray-800 border border-gray-700 hover:border-white/50 flex items-center justify-center transition-all duration-300 text-gray-400 hover:text-white group">
+                        <a href="#" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Github className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
-                        <a href="#" className="w-14 h-14 rounded-full bg-[#0A192F] hover:bg-sky-500 border border-gray-700 hover:border-sky-400 flex items-center justify-center transition-all duration-300 text-gray-400 hover:text-white group">
+                        <a href="#" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Twitter className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
-                        <a href="#" className="w-14 h-14 rounded-full bg-[#0A192F] hover:bg-pink-600 border border-gray-700 hover:border-pink-500 flex items-center justify-center transition-all duration-300 text-gray-400 hover:text-white group">
+                        <a href="#" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Instagram className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
                     </div>
 
-                    <Button className="rounded-full bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg px-10 py-6 mt-4 shadow-lg shadow-blue-900/20">
-                        Download Resume
+                    <Button className="rounded-full bg-[#B18325] hover:bg-[#D7BF75] text-black font-bold text-lg px-10 py-6 mt-4 shadow-[0_0_20px_rgba(177,131,37,0.3)] transition-all">
+                        Download CV
                     </Button>
                 </div>
             </div>
         </section>
+
     );
 }

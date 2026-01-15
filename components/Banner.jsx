@@ -27,7 +27,7 @@ function Banner() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <span className="bg-[#05355F] text-base text-white px-2 py-1 rounded-sm tracking-[4px] uppercase">
+                            <span className="bg-[#B18325]/20 text-[#D7BF75] border border-[#B18325]/30 text-base px-3 py-1 rounded-sm tracking-[4px] uppercase backdrop-blur-sm">
                                 {userDetails.name}
                             </span>
                         </motion.h6>
@@ -36,9 +36,9 @@ function Banner() {
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.1 }}
-                            className="uppercase text-white text-[70px] font-bold"
+                            className="uppercase text-white text-[70px] font-bold leading-tight"
                         >
-                            Hey! I am Hina
+                            Hey! I am <span className="gold-text-gradient">Hina</span>
                         </motion.h1>
 
                         <motion.h2
@@ -46,7 +46,7 @@ function Banner() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.2 }}
                         >
-                            <span className="text-[#0788ff] font-bold text-[70px] uppercase leading-[76px]">
+                            <span className="text-[#D7BF75] font-bold text-[70px] uppercase leading-[76px]">
                                 I am a {' '}
                                 <Typewriter
                                     words={[
@@ -62,31 +62,31 @@ function Banner() {
                             initial={{ opacity: 0, y: 30 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.3 }}
-                            className="mt-4 text-white text-[20px]"
+                            className="mt-4 text-gray-300 text-[20px] max-w-xl"
                         >
                             {userDetails.description}
                         </motion.p>
 
-                        <div className='flex items-center gap-4 mt-6'>
+                        <div className='flex items-center gap-4 mt-8'>
                             <button
-                                className='flex items-center gap-3 uppercase px-6 py-3 bg-[#0788ff] text-white rounded-full cursor-pointer border-2 border-[#0788ff] hover:border-[white] hover:bg-[#0562c1] transition'
+                                className='flex items-center gap-3 uppercase px-8 py-4 bg-[#B18325] text-black font-bold rounded-full cursor-pointer hover:bg-[#D7BF75] transition-all duration-300 shadow-[0_0_20px_rgba(177,131,37,0.4)]'
                             >
                                 Get In Touch
                                 <ArrowRight className='inline-block' size={20} />
                             </button>
-                            <Link href={userDetails.linkedIn} className='bg-[#1275b1] p-2 border-2 border-white text-white rounded-full hover:bg-white hover:text-black transition'>
+                            <Link href={userDetails.linkedIn} className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
                                 <LinkedinIcon size={22} />
                             </Link>
 
-                            <Link href={userDetails.github} className='p-2 border-2 border-white text-white rounded-full hover:bg-white hover:text-black transition'>
+                            <Link href={userDetails.github} className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
                                 <Github size={22} />
                             </Link>
 
-                            <Link href={userDetails.facebook} className='bg-[#1877f2] p-2 border-2 border-white text-white rounded-full hover:bg-white hover:text-black transition'>
+                            <Link href={userDetails.facebook} className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
                                 <Facebook size={22} />
                             </Link>
                         </div>
-                    </div> 
+                    </div>
                     <div>
                         {/* <img src={userDetails.image} alt="Profile Picture" className='' /> */}
                     </div>
