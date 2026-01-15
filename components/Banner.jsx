@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import Typewriter from './Typewriter';
-import { ArrowRight, Code, Facebook, Github, LinkedinIcon } from "lucide-react";
+import { ArrowRight, Facebook, Github, LinkedinIcon } from "lucide-react";
 import Link from 'next/link';
 
 function Banner() {
