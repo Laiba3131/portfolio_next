@@ -23,13 +23,6 @@ export default function Navbar() {
             <nav
                 className={`w-full fixed top-0 left-0 z-50 px-6 md:px-8 lg:px-20 py-4 flex items-center justify-between shadow-md ${scrolled ? "bg-black/90 backdrop-blur-md shadow-lg border-b border-[#B18325]/20" : ""}`}
             >
-
-                {/* Logo */}
-                {/* <div className="flex items-center space-x-2">
-                    <div className="w-12 h-12 bg-[#B18325] rounded-xl flex items-center justify-center shadow-[0_0_15px_rgba(177,131,37,0.5)]">
-                        <span className="text-black font-bold text-2xl">H</span>
-                    </div>
-                </div> */}
                 <div className="relative flex items-center">
                     {/* animated ring */}
                     <div className="absolute inset-0 rounded-xl animate-spin-slow 
