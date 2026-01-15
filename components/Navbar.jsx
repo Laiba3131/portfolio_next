@@ -21,7 +21,7 @@ export default function Navbar() {
     return (
         <>
             <nav
-                className={`w-full fixed top-0 left-0 z-50 px-6 md:px-8 lg:px-20 py-4 flex items-center justify-between shadow-md ${scrolled ? "bg-black/90 backdrop-blur-md shadow-lg border-b border-[#B18325]/20" : "bg-transparent"}`}
+                className={`w-full fixed top-0 left-0 z-50 px-6 md:px-8 lg:px-20 py-4 flex items-center justify-between shadow-md ${scrolled ? "bg-black/90 backdrop-blur-md shadow-lg border-b border-[#B18325]/20" : ""}`}
             >
 
                 {/* Logo */}

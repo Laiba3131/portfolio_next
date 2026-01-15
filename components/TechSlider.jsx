@@ -18,7 +18,7 @@ const techs = [
 export default function TechSlider() {
     return (
         <>
-            <div className="px-6 md:px-10 lg:px-20 bg-black/40 py-12 border-y border-[#B18325]/10 backdrop-blur-sm">
+            <div className="px-6 md:px-10 lg:px-20 bg-linear-to-r from-[#B18325]/50 via-[#0000]/55 to-[black]/60 py-12 border-y border-[#B18325]/10 backdrop-blur-sm">
                 <Swiper
                     modules={[Autoplay]}
                     loop={true}

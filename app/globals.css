@@ -124,13 +124,55 @@
 
 body {
   font-family: var(--font-space-grotesk), sans-serif;
-  background: radial-gradient(circle at top right, #1a1a1a, #000000),
-    radial-gradient(circle at bottom left, #1a1408, #000000);
+  /* background: radial-gradient(circle at top right, #1a1a1a, #D7BF75),
+    radial-gradient(circle at bottom left, #B18325, #D7BF75) !important;
+  background-attachment: fixed; */
+  /* background: linear-gradient(90deg,
+      #000000 0%,
+      #0f0c06 35%,
+      #8f6a1f 60%,
+      #B18325 85%,
+      #D7BF75 100%) !important; */
+  background:
+    /* very subtle gold glow near content */
+    radial-gradient(circle at 28% 42%,
+      rgba(215, 191, 117, 0.12),
+      transparent 55%),
+
+    /* faint warm gold depth on right */
+    radial-gradient(circle at 85% 55%,
+      rgba(177, 131, 37, 0.18),
+      transparent 60%),
+
+    /* strong black base */
+    linear-gradient(90deg,
+      #000000 0%,
+      #030201 35%,
+      #070502 55%,
+      #0f0b04 72%,
+      #1a1306 100%);
+
   background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("/noise.png");
+  opacity: 0.04;
+  pointer-events: none;
 }
 
 .mob-nav .ring-offset-background {
   color: white !important;
+}
+
+nav {
+  backdrop-filter: blur(10px);
+  background: linear-gradient(90deg,
+      rgba(0, 0, 0, 0.85),
+      rgba(177, 131, 37, 0.25));
 }
 
 .gold-gradient {
