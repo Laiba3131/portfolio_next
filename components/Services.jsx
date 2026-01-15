@@ -36,7 +36,7 @@ export default function Services() {
     ];
 
     return (
-        <section className="w-full py-20 px-6 md:px-10 lg:px-20 bg-black/30 text-white">
+        <section id="services" className="w-full py-20 px-6 md:px-10 lg:px-20 bg-black/30 text-white">
             <div className="max-w-7xl mx-auto">
                 <div className="mb-16 text-center">
                     <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">What I Offer</span>

@@ -122,6 +122,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-space-grotesk), sans-serif;
   /* background: radial-gradient(circle at top right, #1a1a1a, #D7BF75),

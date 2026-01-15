@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutMe() {
   return (
-    <section className="w-full py-20 px-6 md:px-10 lg:px-20 text-white bg-black/10">
+    <section id="about" className="w-full py-20 px-6 md:px-10 lg:px-20 text-white bg-black/10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
         <div className="w-full md:w-1/2">
           <div className="w-full h-[500px] bg-linear-to-br from-[#B18325]/20 to-black rounded-3xl overflow-hidden relative group border border-[#B18325]/20">

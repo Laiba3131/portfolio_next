@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Contact() {
     return (
-        <section className="w-full py-20 px-6 md:px-10 lg:px-20 bg-black/50 text-white">
+        <section id="contact" className="w-full py-20 px-6 md:px-10 lg:px-20 bg-black/50 text-white">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
                     <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">Get In Touch</span>
@@ -53,16 +53,16 @@ export default function Contact() {
                 <div className="flex flex-col items-center justify-center space-y-8 p-10 rounded-3xl bg-[#B18325]/5 border border-[#B18325]/20">
                     <h3 className="text-2xl font-bold text-center">Follow My Journey</h3>
                     <div className="flex gap-6">
-                        <a href="#" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
+                        <a href="https://www.linkedin.com/in/hina-shahzadi-701528294/" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Linkedin className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
-                        <a href="#" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Github className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
-                        <a href="#" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Twitter className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
-                        <a href="#" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
+                        <a href="#" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Instagram className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
                     </div>

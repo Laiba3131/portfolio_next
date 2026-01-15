@@ -7,7 +7,7 @@ export default function Projects() {
         {
             title: "Cinewoo",
             description: "A dynamic streaming platform built with Next.js. Features seamless navigation and a rich user interface using PrimeReact and Tailwind CSS.",
-            image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925&auto=format&fit=crop",
+            image: "/images/cinewoo.png",
             tech: ["Next.js", "Tailwind", "PrimeReact"],
             liveLink: "https://cinewoo.com/",
             sourceLink: "#"
@@ -15,7 +15,7 @@ export default function Projects() {
         {
             title: "Reminder",
             description: "A task management and reminder application designed for efficiency. Built with React JS and Core UI for a clean, responsive experience.",
-            image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop",
+            image: "/images/reminder.png",
             tech: ["React.js", "Core UI"],
             liveLink: "https://reminder-link.com/",
             sourceLink: "#"
@@ -25,15 +25,15 @@ export default function Projects() {
             description: "A cryptocurrency exchange interface facilitating seamless token swaps. Optimized for performance and real-time updates using React.js.",
             image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?q=80&w=2069&auto=format&fit=crop",
             tech: ["React.js", "Redux", "Web3"],
-            liveLink: "https://test.coinoswap.com/",
+            liveLink: "https://coinoswap.com/",
             sourceLink: "#"
         },
         {
-            title: "Address Offices",
-            description: "A directory and location service platform. Developed with standard web technologies ensuring high compatibility and speed.",
-            image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop",
+            title: "Try Your Lux",
+            description: "A responsive lifestyle directory landing platform built with HTML, CSS, Bootstrap, and JS, currently serving a coming-soon announcement with email subscription and social engagement.",
+            image: "/images/try-your-lux.png",
             tech: ["HTML", "CSS", "Bootstrap", "JS"],
-            liveLink: "https://addressoffices.com/",
+            liveLink: "https://tryyourlux.co.uk/try_your_lux/public/",
             sourceLink: "#"
         },
         {
@@ -47,7 +47,7 @@ export default function Projects() {
         {
             title: "Houbara Fund",
             description: "A conservation organization website focusing on wildlife preservation. Features a clean layout and responsive design.",
-            image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop",
+            image: "/images/cbc.png",
             tech: ["HTML", "CSS", "Bootstrap"],
             liveLink: "https://conservationbreedingcentre.com.pk/",
             sourceLink: "#"
@@ -55,7 +55,7 @@ export default function Projects() {
     ];
 
     return (
-        <section className="w-full py-20 px-6 md:px-10 lg:px-20 bg-black/50 text-white">
+        <section id="projects" className="w-full py-20 px-6 md:px-10 lg:px-20 bg-black/50 text-white">
             <div className="max-w-7xl mx-auto">
                 <div className="mb-16 text-center md:text-left">
                     <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">My Portfolio</span>
@@ -97,12 +97,12 @@ export default function Projects() {
 
                                 {/* Buttons using Button component if available or standard button */}
                                 <div className="flex gap-4 mt-auto">
-                                    <a href={project.liveLink} className="flex-1">
+                                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="flex-1">
                                         <Button className="w-full bg-[#B18325] hover:bg-[#D7BF75] text-black font-bold rounded-lg group-hover:shadow-[0_0_15px_rgba(177,131,37,0.3)] transition-all">
                                             <ExternalLink className="mr-2 h-4 w-4" /> Live
                                         </Button>
                                     </a>
-                                    <a href={project.sourceLink} className="flex-1">
+                                    <a href={project.sourceLink} target="_blank" rel="noopener noreferrer" className="flex-1">
                                         <Button variant="outline" className="w-full border-[#B18325]/30 text-[#D7BF75] hover:text-black hover:bg-[#B18325] hover:border-[#B18325] bg-transparent rounded-lg transition-all duration-300">
                                             <Github className="mr-2 h-4 w-4" /> Code
                                         </Button>

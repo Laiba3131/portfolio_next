@@ -19,7 +19,7 @@ function Banner() {
 
     return (
         <>
-            <div className='h-screen pt-10 w-full'>
+            <div id="home" className='h-screen pt-10 w-full'>
                 <div className='pt-20 lg:pt-0 grid lg:grid-cols-2 grid-cols-1 h-full items-center'>
                     <div>
                         <motion.h6
@@ -69,21 +69,22 @@ function Banner() {
                         </motion.p>
 
                         <div className='flex items-center gap-4 mt-8'>
-                            <button
+                            <a
+                                href="#contact"
                                 className='text-xs lg:text-lg flex items-center gap-3 uppercase px-2 py-3 lg:px-8 lg:py-4 bg-[#B18325] text-black font-bold rounded-full cursor-pointer hover:bg-[#D7BF75] transition-all duration-300 shadow-[0_0_20px_rgba(177,131,37,0.4)]'
                             >
                                 Get In Touch
                                 <ArrowRight className='inline-block' size={20} />
-                            </button>
-                            <Link href={userDetails.linkedIn} className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
+                            </a>
+                            <Link href={userDetails.linkedIn} target="_blank" rel="noopener noreferrer" className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
                                 <LinkedinIcon size={22} />
                             </Link>
 
-                            <Link href={userDetails.github} className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
+                            <Link href={userDetails.github} target="_blank" rel="noopener noreferrer" className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
                                 <Github size={22} />
                             </Link>
 
-                            <Link href={userDetails.facebook} className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
+                            <Link href={userDetails.facebook} target="_blank" rel="noopener noreferrer" className='bg-black/50 p-3 border border-[#B18325]/50 text-[#B18325] rounded-full hover:bg-[#B18325] hover:text-black transition-all duration-300'>
                                 <Facebook size={22} />
                             </Link>
                         </div>

@@ -5,9 +5,16 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 
 export default function Navbar() {
-    const menuItems = ["Home", "About Me", "Projects", "Services", "Contact"];
+    const menuItems = [
+        { name: "Home", id: "home" },
+        { name: "About Me", id: "about" },
+        { name: "Projects", id: "projects" },
+        { name: "Services", id: "services" },
+        { name: "Contact", id: "contact" }
+    ];
 
     const [scrolled, setScrolled] = useState(false);
+    const [activeSection, setActiveSection] = useState("home");
 
     useEffect(() => {
         const handleScroll = () => {
@@ -21,13 +28,13 @@ export default function Navbar() {
     return (
         <>
             <nav
-                className={`w-full fixed top-0 left-0 z-50 px-6 md:px-8 lg:px-20 py-4 flex items-center justify-between shadow-md ${scrolled ? "bg-black/90 backdrop-blur-md shadow-lg border-b border-[#B18325]/20" : ""}`}
+                className={`w-full fixed top-0 left-0 z-50 px-6 md:px-8 lg:px-20 py-4 flex items-center justify-between shadow-md transition-all duration-300 ${scrolled ? "bg-black/90 backdrop-blur-md shadow-lg border-b border-[#B18325]/20" : ""}`}
             >
-                <div className="relative flex items-center">
+                <a href="#home" className="relative flex items-center group">
                     {/* animated ring */}
                     <div className="absolute inset-0 rounded-xl animate-spin-slow 
                         bg-[conic-gradient(from_0deg,#000000,#B18325,#D7BF75,#B18325,#000000)] 
-                        blur-[2px] opacity-80">
+                        blur-[2px] opacity-80 group-hover:opacity-100 transition-opacity">
                     </div>
 
                     {/* inner glow mask */}
@@ -35,31 +42,35 @@ export default function Navbar() {
 
                     {/* logo */}
                     <div className="relative w-12 h-12 bg-[#B18325] rounded-xl flex items-center justify-center
-                        shadow-[0_0_15px_rgba(177,131,37,0.6)]">
+                        shadow-[0_0_15px_rgba(177,131,37,0.6)] group-hover:shadow-[0_0_25px_rgba(177,131,37,0.8)] transition-all">
                         <span className="text-black font-bold text-2xl">H</span>
                     </div>
-                </div>
+                </a>
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center space-x-10 text-white font-semibold tracking-wide">
                     {menuItems.map((item) => (
-                        <button
-                            key={item}
+                        <a
+                            key={item.name}
+                            href={`#${item.id}`}
                             className="relative hover:text-[#D7BF75] transition uppercase"
+                            onClick={() => setActiveSection(item.id)}
                         >
-                            {item}
-                            {item === "Home" && (
+                            {item.name}
+                            {activeSection === item.id && (
                                 <span className="absolute left-1/2 -bottom-1 w-6 h-0.5 bg-[#B18325] -translate-x-1/2" />
                             )}
-                        </button>
+                        </a>
                     ))}
                 </div>
 
                 {/* Desktop CTA Button */}
                 <div className="hidden md:block">
-                    <Button className="rounded-full bg-[#B18325] hover:bg-[#D7BF75] hover:text-black px-8 py-6 text-white font-bold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(177,131,37,0.3)]">
-                        LET’S TALK
-                    </Button>
+                    <a href="#contact">
+                        <Button className="rounded-full bg-[#B18325] hover:bg-[#D7BF75] hover:text-black px-8 py-6 text-white font-bold text-lg transition-all duration-300 shadow-[0_0_20px_rgba(177,131,37,0.3)]">
+                            LET’S TALK
+                        </Button>
+                    </a>
                 </div>
 
                 {/* Mobile Menu */}
@@ -74,14 +85,21 @@ export default function Navbar() {
                         <SheetContent side="right" className="bg-[#0a0a0a] border-l border-[#B18325]/30 mob-nav">
                             <div className="flex flex-col px-6 items-start space-y-6 mt-10 text-white text-lg font-semibold">
                                 {menuItems.map((item) => (
-                                    <button key={item} className="hover:text-[#D7BF75] transition">
-                                        {item}
-                                    </button>
+                                    <a
+                                        key={item.name}
+                                        href={`#${item.id}`}
+                                        className="hover:text-[#D7BF75] transition uppercase"
+                                        onClick={() => setActiveSection(item.id)}
+                                    >
+                                        {item.name}
+                                    </a>
                                 ))}
 
-                                <Button className="mt-4 rounded-full bg-[#B18325] hover:bg-[#D7BF75] hover:text-black px-8 py-6 text-white font-bold text-lg transition-all duration-300">
-                                    LET’S TALK
-                                </Button>
+                                <a href="#contact" className="w-full">
+                                    <Button className="mt-4 w-full rounded-full bg-[#B18325] hover:bg-[#D7BF75] hover:text-black px-8 py-6 text-white font-bold text-lg transition-all duration-300">
+                                        LET’S TALK
+                                    </Button>
+                                </a>
                             </div>
                         </SheetContent>
                     </Sheet>
