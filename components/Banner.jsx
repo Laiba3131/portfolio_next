@@ -10,7 +10,7 @@ function Banner() {
     const userDetails = {
         name: "Hina Shahzadi",
         title: "Frontend Developer",
-        image: "/images/profile.png",
+        image: "/images/profile2.png",
         description: "Dedicated and results-driven Front End Developer with 3+ years of experience in creating dynamic and visually stunning web applications. specialized in React.js, Next.js, Redux, and API integration.",
         linkedIn: "https://www.linkedin.com/in/hina-shahzadi-701528294/",
         github: "#",
@@ -19,9 +19,11 @@ function Banner() {
 
     return (
         <>
-            <div id="home" className='min-h-screen pt-22 w-full '>
-                <div className='pt-20 lg:pt-0 grid lg:grid-cols-2 grid-cols-1 h-full items-center'>
-                    <div>
+            <div id="home" className='px-6 md:px-10 lg:px-20 min-h-screen pt-22 w-full banner-wrapper'>
+                <div className='pt-20 lg:pt-0 grid lg:grid-cols-2 grid-cols-1 h-full items-center '>
+
+                    {/* Intro Section - Order 2 on mobile, 1 on desktop */}
+                    <div className="order-2 lg:order-1 pt-10 lg:pt-0">
                         <motion.h6
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -90,16 +92,19 @@ function Banner() {
                         </div>
                     </div>
 
-                    <div className="h-[400px] relative lg:h-full flex items-end justify-center lg:justify-end">
-                        {/* Static Gold Background Shape */}
-                        <div className="absolute top-0 right-1/2 lg:-right-20 h-full w-full lg:w-[99%] bg-[#B18325] lg:rounded-l-[50%] lg:rounded-r-[0%] rounded-[50%] z-0"></div>
-
+                    {/* Image Section - Order 1 on mobile, 2 on desktop */}
+                    <div className="order-1 lg:order-2 relative h-[450px] sm:h-[520px] lg:h-[90vh] overflow-hidden">
                         {/* Profile Image */}
-                        <div className="relative z-10 h-[70%] lg:h-[90%] w-full flex justify-center">
+                        <div className="absolute bottom-0 right-16 lg:right-24 z-10 h-[88%] lg:h-[92%]">
                             <img
                                 src={userDetails.image}
                                 alt="Hina Shahzadi"
-                                className="h-full w-auto object-contain drop-shadow-2xl"
+                                className="
+                                    h-full 
+                                    w-auto 
+                                    object-contain
+                                    drop-shadow-[0_35px_35px_rgba(0,0,0,0.35)]
+                                "
                             />
                         </div>
                     </div>

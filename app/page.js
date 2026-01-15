@@ -14,8 +14,8 @@ export default function Home() {
     <>
       <main className="relative px-6 md:px-10 lg:px-20 w-full">
         <Navbar />
-        <Banner />
       </main>
+      <Banner />
       <TechSlider />
       <AboutMe />
       <Experience />

@@ -244,3 +244,9 @@ nav {
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
+
+.banner-wrapper{
+  background-image: url('/images/yellow-bg2.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
