@@ -60,8 +60,8 @@ export default function Projects() {
                 <div className="mb-16 text-center md:text-left">
                     <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">My Portfolio</span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-2">Recent <span className="gold-text-gradient">Projects</span></h2>
-                    <div className="w-20 h-1 bg-[#B18325] mt-4 rounded-full"></div>
-                    <p className="text-gray-400 mt-6 max-w-2xl text-lg">
+                    <div className="w-20 h-1 bg-[#B18325] mt-4 rounded-full md:mx-0 mx-auto"></div>
+                    <p className="text-gray-400 mt-6 max-w-2xl text-base md:text-lg">
                         Here are some of the projects I've worked on. Each project represents a unique challenge and solution.
                     </p>
                 </div>
@@ -82,7 +82,7 @@ export default function Projects() {
                             {/* Content */}
                             <div className="p-6 flex-1 flex flex-col">
                                 <h3 className="text-2xl font-bold mb-3 group-hover:text-[#D7BF75] transition">{project.title}</h3>
-                                <p className="text-gray-400 text-sm leading-relaxed mb-6 flex-1">
+                                <p className="text-gray-400 text-justify text-sm leading-relaxed mb-6 flex-1">
                                     {project.description}
                                 </p>
 
