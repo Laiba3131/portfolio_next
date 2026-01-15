@@ -5,14 +5,14 @@ export default function AboutMe() {
     <section className="w-full py-20 px-6 md:px-10 lg:px-20 text-white bg-black/10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
         <div className="w-full md:w-1/2">
-          <div className="w-full h-[500px] bg-gradient-to-br from-[#B18325]/20 to-black rounded-3xl overflow-hidden relative group border border-[#B18325]/20">
+          <div className="w-full h-[500px] bg-linear-to-br from-[#B18325]/20 to-black rounded-3xl overflow-hidden relative group border border-[#B18325]/20">
             {/* Gold-themed visual elements */}
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
-              <div className="w-64 h-64 rounded-full bg-gradient-to-r from-[#B18325] to-[#D7BF75] blur-3xl"></div>
+              <div className="w-64 h-64 rounded-full bg-linear-to-r from-[#B18325] to-[#D7BF75] blur-3xl"></div>
             </div>
 
             {/* Code snippet overlay */}
-            <div className="absolute bottom-6 left-6 bg-[#0a0a0a]/90 backdrop-blur-md p-4 rounded-xl border border-[#B18325]/30 w-3/4 z-20">
+            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-[#0a0a0a]/90 backdrop-blur-md p-4 rounded-xl border border-[#B18325]/30 w-[93%] lg:w-3/4 z-20">
               <div className="flex gap-2 mb-3">
                 <div className="w-3 h-3 rounded-full bg-[#B18325]"></div>
                 <div className="w-3 h-3 rounded-full bg-[#D7BF75]"></div>
@@ -51,7 +51,7 @@ export default function AboutMe() {
             </h2>
           </div>
 
-          <p className="text-gray-300 text-lg leading-relaxed">
+          <p className="text-gray-300 text-justify text-[16px] lg:text-lg leading-relaxed">
             I am a passionate Frontend Developer specialized in building high-performance, visually stunning web and mobile applications. With expertise in React, Next.js, and modern CSS frameworks, I create seamless user interfaces that are both beautiful and functional. My focus is on delivering high-quality code and pixel-perfect designs.
           </p>
 

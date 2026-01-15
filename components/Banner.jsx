@@ -47,7 +47,7 @@ function Banner() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.2 }}
                         >
-                            <span className="text-[#D7BF75] font-bold lg:text-[70px] md:text-[40px] text-[30px] uppercase lg:leading-[76px] leading-[36px]">
+                            <span className="text-[#D7BF75] font-bold lg:text-[70px] md:text-[40px] text-[30px] uppercase lg:leading-[76px] leading-9">
                                 I am a {' '}
                                 <Typewriter
                                     words={[
