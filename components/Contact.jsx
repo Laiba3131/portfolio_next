@@ -10,7 +10,7 @@ export default function Contact() {
                     <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">Get In Touch</span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-2">Let's <span className="gold-text-gradient">Connect</span></h2>
                     <div className="w-20 h-1 bg-[#B18325] mx-auto mt-4 rounded-full"></div>
-                    <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg">
+                    <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-base md:text-lg">
                         I'm currently available for freelance work and full-time opportunities. If you have a project that needs some creative touch, let's talk.
                     </p>
                 </div>

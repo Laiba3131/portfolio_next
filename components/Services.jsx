@@ -42,7 +42,7 @@ export default function Services() {
                     <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">What I Offer</span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-2">My <span className="gold-text-gradient">Services</span></h2>
                     <div className="w-20 h-1 bg-[#B18325] mx-auto mt-4 rounded-full"></div>
-                    <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg">
+                    <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-base md:text-lg">
                         I provide a wide range of services to help you build and grow your digital presence.
                     </p>
                 </div>
