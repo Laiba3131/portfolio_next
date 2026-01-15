@@ -10,6 +10,7 @@ function Banner() {
     const userDetails = {
         name: "Hina Shahzadi",
         title: "Frontend Developer",
+        image: "/images/profile.png",
         description: "Im a passionate Frontend Developer who loves building clean, responsive,and interactive user interfaces. With strong expertise in React, Next.js, and modern CSS frameworks, I focus on creating seamless user experiences that are both visually appealing and performance-driven.",
         linkedIn: "https://www.linkedin.com/in/hina-shahzadi-701528294/",
         github: "#",
@@ -85,6 +86,9 @@ function Banner() {
                                 <Facebook size={22} />
                             </Link>
                         </div>
+                    </div> 
+                    <div>
+                        {/* <img src={userDetails.image} alt="Profile Picture" className='' /> */}
                     </div>
                 </div>
             </div>
