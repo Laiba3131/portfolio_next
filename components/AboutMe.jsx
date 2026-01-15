@@ -25,7 +25,7 @@ export default function AboutMe() {
 
             {/* Profile image with gold color theme */}
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop"
+              src="/images/about.jpeg"
               alt="Developer"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500 opacity-60 group-hover:opacity-100"
             />
