@@ -51,7 +51,7 @@ export default function TechSlider() {
                 >
                     {techs.map((tech, i) => (
                         <SwiperSlide key={i} className="flex justify-center items-center opacity-60 hover:opacity-100 transition-opacity duration-300">
-                            <Image src={tech.src} alt={tech.name} width={130} height={130} className="filter grayscale invert brightness-200" />
+                            <Image src={tech.src} alt={tech.name} width={130} height={130} className="" />
                         </SwiperSlide>
                     ))}
                 </Swiper>
