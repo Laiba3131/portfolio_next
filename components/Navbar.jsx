@@ -25,8 +25,24 @@ export default function Navbar() {
             >
 
                 {/* Logo */}
-                <div className="flex items-center space-x-2">
+                {/* <div className="flex items-center space-x-2">
                     <div className="w-12 h-12 bg-[#B18325] rounded-xl flex items-center justify-center shadow-[0_0_15px_rgba(177,131,37,0.5)]">
+                        <span className="text-black font-bold text-2xl">H</span>
+                    </div>
+                </div> */}
+                <div className="relative flex items-center">
+                    {/* animated ring */}
+                    <div className="absolute inset-0 rounded-xl animate-spin-slow 
+                        bg-[conic-gradient(from_0deg,#000000,#B18325,#D7BF75,#B18325,#000000)] 
+                        blur-[2px] opacity-80">
+                    </div>
+
+                    {/* inner glow mask */}
+                    <div className="absolute inset-0.5 rounded-xl bg-black"></div>
+
+                    {/* logo */}
+                    <div className="relative w-12 h-12 bg-[#B18325] rounded-xl flex items-center justify-center
+                        shadow-[0_0_15px_rgba(177,131,37,0.6)]">
                         <span className="text-black font-bold text-2xl">H</span>
                     </div>
                 </div>

@@ -191,3 +191,17 @@ nav {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(177, 131, 37, 0.2);
 }
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 6s linear infinite;
+}
