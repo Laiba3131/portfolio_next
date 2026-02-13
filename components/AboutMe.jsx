@@ -25,7 +25,7 @@ export default function AboutMe() {
 
             {/* Profile image with gold color theme */}
             <img
-              src="/images/about.jpeg"
+              src="/images/about2.jpeg"
               alt="Developer"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500 opacity-60 group-hover:opacity-100"
             />

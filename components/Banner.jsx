@@ -10,7 +10,7 @@ function Banner() {
     const userDetails = {
         name: "Hina Shahzadi",
         title: "Frontend Developer",
-        image: "/images/profile2.png",
+        image: "/images/profile3.png",
         description: "Dedicated and results-driven Front End Developer with 3+ years of experience in creating dynamic and visually stunning web applications. specialized in React.js, Next.js, Redux, and API integration.",
         linkedIn: "https://www.linkedin.com/in/hina-shahzadi-701528294/",
         github: "#",
@@ -19,7 +19,7 @@ function Banner() {
 
     return (
         <>
-            <div id="home" className='px-6 md:px-10 lg:px-20 min-h-screen pt-22 w-full banner-wrapper'>
+            <div id="home" className='pb-8 lg:pb-0 px-6 md:px-10 lg:px-20 min-h-screen pt-22 w-full banner-wrapper'>
                 <div className='pt-20 lg:pt-0 grid lg:grid-cols-2 grid-cols-1 h-full items-center '>
 
                     {/* Intro Section - Order 2 on mobile, 1 on desktop */}
@@ -93,9 +93,9 @@ function Banner() {
                     </div>
 
                     {/* Image Section - Order 1 on mobile, 2 on desktop */}
-                    <div className="order-1 lg:order-2 relative h-[450px] sm:h-[520px] lg:h-[90vh] overflow-hidden">
+                    <div className="order-1 lg:order-2 relative h-[400px] md:h-[450px] sm:h-[520px] lg:h-[90vh] overflow-hidden">
                         {/* Profile Image */}
-                        <div className="absolute bottom-0 right-16 lg:right-24 z-10 h-[88%] lg:h-[92%]">
+                        <div className="absolute bottom-4 lg:bottom-0 right-2 lg:right-24 z-10 h-[88%] lg:h-[92%]">
                             <img
                                 src={userDetails.image}
                                 alt="Hina Shahzadi"
@@ -105,6 +105,7 @@ function Banner() {
                                     object-contain
                                     drop-shadow-[0_35px_35px_rgba(0,0,0,0.35)]
                                 "
+                                style={{ rotate: '14deg' }}
                             />
                         </div>
                     </div>
