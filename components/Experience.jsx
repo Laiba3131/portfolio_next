@@ -3,22 +3,34 @@ import React from 'react';
 export default function Experience() {
     const experiences = [
         {
-            year: "Jan 2024 - Present",
-            title: "Frontend Developer",
-            company: "Cyber Advanced Solutions",
-            description: "Building numerous projects using React.js, Next.js, Bootstrap, Tailwind, PrimeReact, and Shadcn. Integrating APIs and delivering real-time data solutions."
+            year: "Jan 2025 - Present",
+            title: "Flutter Developer",
+            company: "Cyber Advance Solutions",
+            description: "Developed and maintained Flutter applications for Android and iOS using a single codebase. Implemented REST API integration using BLoC state management. Integrated Firebase (Authentication, Firestore, Notifications). Published and maintained apps on Google Play Store."
         },
         {
-            year: "2022 - 2023",
-            title: "Frontend Developer",
-            company: "Techifort",
-            description: "Started as an intern and transitioned to full-time. Developed websites from Figma designs using React JS, Redux, and MySQL. Managed full lifecycle of web projects."
+            year: "Feb 2024 - Jan 2025",
+            title: "Junior Flutter Developer",
+            company: "HI TECH LUBRICANT (AutoReady)",
+            description: "Developed Customer and Client Portal apps using Flutter. Integrated backend APIs for user management, orders, and dashboards. Used Provider and GetX for efficient state management."
         },
         {
-            year: "2018 - 2022",
-            title: "BS Software Engineering",
-            company: "Govt College and University Faisalabad",
-            description: "Graduated with a CGPA of 3.67/4.0. Completed professional development in web technologies and a final year project on School Management System using Laravel."
+            year: "Apr 2023 - Sep 2023",
+            title: "Flutter Developer (Intern)",
+            company: "DEVSINN TECHNOLOGIES",
+            description: "Gained hands-on experience in Flutter development and mobile app lifecycle."
+        },
+        {
+            year: "Oct 2019 - Dec 2023",
+            title: "Bachelor of Science in Information Technology (BS-IT)",
+            company: "University of Punjab",
+            description: "Graduated with CGPA 3.17. Focus on software development and information technology."
+        },
+        {
+            year: "Aug 2017 - Sep 2019",
+            title: "ICS (Intermediate of Computer Science)",
+            company: "Govt Degree College",
+            description: "Intermediate education in Computer Science."
         }
     ];
 

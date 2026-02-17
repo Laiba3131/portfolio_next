@@ -5,51 +5,59 @@ import { Button } from '@/components/ui/button';
 export default function Projects() {
     const projects = [
         {
-            title: "Cinewoo",
-            description: "A dynamic streaming platform built with Next.js. Features seamless navigation and a rich user interface using PrimeReact and Tailwind CSS.",
-            image: "/images/cinewoo.png",
-            tech: ["Next.js", "Tailwind", "PrimeReact"],
-            liveLink: "https://cinewoo.com/",
+            title: "BKMC Student App",
+            description: "Flutter app allowing students to view their attendance, exam results, and assignments.",
+            image: "/images/react.png",
+            tech: ["Flutter", "Firebase"],
+            liveLink: "#",
             sourceLink: "#"
         },
         {
-            title: "Reminder",
-            description: "A task management and reminder application designed for efficiency. Built with React JS and Core UI for a clean, responsive experience.",
-            image: "/images/reminder.png",
-            tech: ["React.js", "Core UI"],
-            liveLink: "https://reminder-link.com/",
+            title: "BKMC Teacher App",
+            description: "Flutter app for teachers to manage student records and academic data.",
+            image: "/images/react.png",
+            tech: ["Flutter", "API"],
+            liveLink: "#",
             sourceLink: "#"
         },
         {
-            title: "CoinoSwap",
-            description: "A cryptocurrency exchange interface facilitating seamless token swaps. Optimized for performance and real-time updates using React.js.",
-            image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?q=80&w=2069&auto=format&fit=crop",
-            tech: ["React.js", "Redux", "Web3"],
-            liveLink: "https://coinoswap.com/",
+            title: "Nubes: Unlimited eSIM Data",
+            description: "Flutter-based travel eSIM app providing high-speed global internet access with API integration and Firebase services.",
+            image: "/images/node.png",
+            tech: ["Flutter", "Firebase", "API"],
+            liveLink: "#",
             sourceLink: "#"
         },
         {
-            title: "Try Your Lux",
-            description: "A responsive lifestyle directory landing platform built with HTML, CSS, Bootstrap, and JS, currently serving a coming-soon announcement with email subscription and social engagement.",
-            image: "/images/try-your-lux.png",
-            tech: ["HTML", "CSS", "Bootstrap", "JS"],
-            liveLink: "https://tryyourlux.co.uk/try_your_lux/public/",
+            title: "Kultureapp",
+            description: "Developed dashboard and core features using Flutter with API integration.",
+            image: "/images/nextjs.png",
+            tech: ["Flutter", "API"],
+            liveLink: "#",
             sourceLink: "#"
         },
         {
-            title: "VIP Autolink",
-            description: "An automotive inventory and listing platform. Leverages Next.js and Shadcn for a modern, accessible, and performant user interface.",
-            image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1966&auto=format&fit=crop",
-            tech: ["Next.js", "Shadcn", "CSS"],
-            liveLink: "http://vipstage.site/",
+            title: "AutoReady Customer App",
+            description: "Customer portal app for AutoReady built with Flutter for orders and user management.",
+            image: "/images/tailwindcss.png",
+            tech: ["Flutter", "GetX", "Provider"],
+            liveLink: "#",
             sourceLink: "#"
         },
         {
-            title: "Houbara Fund",
-            description: "A conservation organization website focusing on wildlife preservation. Features a clean layout and responsive design.",
-            image: "/images/cbc.png",
-            tech: ["HTML", "CSS", "Bootstrap"],
-            liveLink: "https://conservationbreedingcentre.com.pk/",
+            title: "KGES",
+            description: "Flutter application with APIs integration for education management.",
+            image: "/images/github.png",
+            tech: ["Flutter", "API"],
+            liveLink: "#",
+            sourceLink: "#"
+        },
+        {
+            title: "Unique Employee Portal",
+            description: "Employee portal application developed with Flutter and APIs integration.",
+            image: "/images/bootstrap.png",
+            tech: ["Flutter", "API"],
+            liveLink: "#",
             sourceLink: "#"
         }
     ];

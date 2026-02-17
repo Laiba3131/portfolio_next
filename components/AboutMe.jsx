@@ -19,7 +19,7 @@ export default function AboutMe() {
                 <div className="w-3 h-3 rounded-full bg-[#8D681D]"></div>
               </div>
               <pre className="text-xs font-mono text-[#D7BF75]">
-                <code>{`const Portfolio = {\n  name: "Hina Shahzadi",\n  role: "Frontend Developer",\n  skills: ["React", "Next.js", "Tailwind"],\n  mission: "Build beautifull UIs"\n};`}</code>
+                <code>{`const Portfolio = {\n  name: "Laiba Azam",\n  role: "Flutter Developer",\n  skills: ["Flutter", "Firebase", "BLoC", "GetX"],\n  mission: "Build production-ready mobile apps"\n};`}</code>
               </pre>
             </div>
 
@@ -32,7 +32,7 @@ export default function AboutMe() {
 
             {/* Logo overlay */}
             <div className="absolute top-6 right-6 w-12 h-12 gold-gradient rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
-              <span className="text-black font-bold text-xl">H</span>
+              <span className="text-black font-bold text-xl">L</span>
             </div>
           </div>
         </div>
@@ -40,28 +40,28 @@ export default function AboutMe() {
         <div className="w-full md:w-1/2 space-y-8">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">Frontend Developer</span>
+              <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">Flutter Developer</span>
               <div className="flex">
                 <div className="w-2 h-2 rounded-full bg-[#B18325]"></div>
                 <div className="w-2 h-2 rounded-full bg-[#D7BF75] ml-1"></div>
               </div>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Crafting Digital <span className="gold-text-gradient">Experiences</span> With Precision
+              Building <span className="gold-text-gradient">Mobile Apps</span> That Scale
             </h2>
           </div>
 
           <p className="text-gray-300 text-justify text-[16px] lg:text-lg leading-relaxed">
-            Dedicated and results-driven Front End Developer with proven 3 years of experience and a record of creating dynamic and visually stunning web applications. My expertise lies in React.js, Next.js, Redux, API integration, Tailwind, JavaScript, CSS, Bootstrap, and HTML. I have rich experience in project development and a deep understanding of software management, testing, and debugging.
+            Flutter Developer with 2+ years of experience building scalable, high-performance mobile applications for Android and iOS. Strong expertise in API integration, BLoC, Provider, GetX state management, and Firebase services. Experienced in building dashboards, user management systems, and report-based applications using clean architecture and modern UI practices.
           </p>
 
           <div className="grid grid-cols-2 gap-8 pt-6">
             <div className="space-y-2 p-6 rounded-xl glass-card border border-[#B18325]/10 hover:border-[#B18325]/30 transition-all duration-300">
-              <h4 className="text-white font-bold text-4xl">3+</h4>
+              <h4 className="text-white font-bold text-4xl">2+</h4>
               <p className="text-sm text-[#D7BF75] uppercase tracking-wider font-medium">Years Exp.</p>
             </div>
             <div className="space-y-2 p-6 rounded-xl glass-card border border-[#B18325]/10 hover:border-[#B18325]/30 transition-all duration-300">
-              <h4 className="text-white font-bold text-4xl">20+</h4>
+              <h4 className="text-white font-bold text-4xl">9+</h4>
               <p className="text-sm text-[#D7BF75] uppercase tracking-wider font-medium">Projects Done</p>
             </div>
           </div>
@@ -70,12 +70,12 @@ export default function AboutMe() {
           <div className="pt-4">
             <p className="text-[#B18325] text-sm mb-4 uppercase tracking-wider font-bold">Expertise In</p>
             <div className="flex flex-wrap gap-3">
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">React.js</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Next.js</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Redux</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Tailwind</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Bootstrap</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">JavaScript</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Flutter</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Firebase</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">BLoC</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">GetX</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Provider</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">REST API</span>
             </div>
           </div>
         </div>

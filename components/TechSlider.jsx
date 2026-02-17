@@ -6,8 +6,14 @@ import "swiper/css";
 import Image from "next/image";
 
 const techs = [
+    { name: "Flutter", src: "/images/react.png" },
+    { name: "Firebase", src: "/images/node.png" },
+    { name: "GetX", src: "/images/nextjs.png" },
+    { name: "BLoC", src: "/images/bootstrap.png" },
+    { name: "Provider", src: "/images/tailwindcss.png" },
     { name: "GitHub", src: "/images/github.png" },
-    { name: "Bootstrap", src: "/images/bootstrap.png" },
+    { name: "REST API", src: "/images/wordpress.png" },
+        { name: "Bootstrap", src: "/images/bootstrap.png" },
     { name: "React", src: "/images/react.png" },
     { name: "Next.js", src: "/images/nextjs.png" },
     { name: "JavaScript", src: "/images/node.png" },

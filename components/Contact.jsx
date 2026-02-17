@@ -22,8 +22,8 @@ export default function Contact() {
                         </div>
                         <h3 className="text-xl font-bold mb-2">Email Me</h3>
                         <p className="text-gray-400 mb-4 text-sm">I'll get back to you within 24 hours.</p>
-                        <a href="mailto:hinashahzadi4321@gmail.com" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors break-all">
-                            hinashahzadi4321@gmail.com
+                        <a href="mailto:laibaazam.31@gmail.com" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors break-all">
+                            laibaazam.31@gmail.com
                         </a>
                     </div>
 
@@ -33,8 +33,8 @@ export default function Contact() {
                         </div>
                         <h3 className="text-xl font-bold mb-2">Call Me</h3>
                         <p className="text-gray-400 mb-4 text-sm">Available Mon-Fri, 9am - 6pm.</p>
-                        <a href="tel:+923046498586" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors">
-                            +92 304 6498586
+                        <a href="tel:+923244533919" className="text-[#D7BF75] hover:text-[#B18325] font-medium text-lg transition-colors">
+                            +92 324 4533919
                         </a>
                     </div>
 
@@ -53,10 +53,10 @@ export default function Contact() {
                 <div className="flex flex-col items-center justify-center space-y-8 p-10 rounded-3xl bg-[#B18325]/5 border border-[#B18325]/20">
                     <h3 className="text-2xl font-bold text-center">Follow My Journey</h3>
                     <div className="flex gap-6">
-                        <a href="https://www.linkedin.com/in/hina-shahzadi-701528294/" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
+                        <a href="https://www.linkedin.com/in/laiba-azam-5ab503220/" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Linkedin className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
-                        <a href="#" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
+                        <a href="https://github.com/Laiba3131" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
                             <Github className="w-6 h-6 group-hover:scale-110 transition" />
                         </a>
                         <a href="#" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-black hover:bg-[#B18325] border border-[#B18325]/20 hover:border-[#B18325] flex items-center justify-center transition-all duration-300 text-[#B18325] hover:text-black group">
@@ -67,7 +67,7 @@ export default function Contact() {
                         </a>
                     </div>
 
-                    <a href="/Hina-Shahzadi-cv.pdf" download="Hina-Shahzadi-cv.pdf">
+                    <a href="/LaibaAzam-2.pdf" download="LaibaAzam-2.pdf">
                         <Button className="rounded-full bg-[#B18325] hover:bg-[#D7BF75] text-black font-bold text-lg px-10 py-6 mt-4 shadow-[0_0_20px_rgba(177,131,37,0.3)] transition-all">
                             Download CV
                         </Button>

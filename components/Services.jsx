@@ -5,33 +5,33 @@ export default function Services() {
     const services = [
         {
             icon: <Smartphone className="w-10 h-10 text-[#B18325]" />,
-            title: "Responsive Web Design",
-            description: "Creating fully responsive and mobile-friendly websites that look great on all devices. Ensuring seamless user experience across desktops, tablets, and phones."
+            title: "Cross-Platform Mobile Apps",
+            description: "Building scalable Flutter applications for Android and iOS from a single codebase. Delivering high-performance, native-feel mobile experiences."
         },
         {
             icon: <Layout className="w-10 h-10 text-[#D7BF75]" />,
-            title: "Web Application Development",
-            description: "Developing scalable and robust web applications with modern frameworks like React, Next.js, and Node.js. Focused on performance, SEO, and user experience."
+            title: "State Management",
+            description: "Implementing BLoC, Provider, and GetX for scalable and maintainable app architecture. Clean separation of business logic and UI."
         },
         {
             icon: <Palette className="w-10 h-10 text-[#B18325]" />,
-            title: "UI/UX Design",
-            description: "Crafting intuitive and aesthetically pleasing user interfaces. I start from wireframes to high-fidelity prototypes, ensuring the user journey is seamless and engaging."
+            title: "Modern UI & Dashboards",
+            description: "Crafting intuitive dashboards, user management screens, and report-based UIs using Flutter and Material Design principles."
         },
         {
             icon: <Code className="w-10 h-10 text-[#D7BF75]" />,
-            title: "Clean Code & Architecture",
-            description: "Writing maintainable, testable, and documented code. I strictly follow SOLID principles and clean architecture patterns to ensure long-term project success."
+            title: "Clean Architecture",
+            description: "Writing maintainable, testable code with clean architecture patterns. Passionate about production-ready, well-structured apps."
         },
         {
             icon: <Database className="w-10 h-10 text-[#B18325]" />,
-            title: "Backend & API Integration",
-            description: "Designing RESTful APIs and integrating backend services (Firebase, Node.js) to power your applications with real-time data and secure authentication."
+            title: "Firebase & API Integration",
+            description: "Integrating Firebase (Authentication, Firestore, Notifications) and REST APIs for real-time data, auth, and backend connectivity."
         },
         {
             icon: <Globe className="w-10 h-10 text-[#D7BF75]" />,
-            title: "SEO & Optimization",
-            description: "Optimizing websites for faster load times and better search engine ranking to increase your visibility and reach a wider audience."
+            title: "Play Store Publishing",
+            description: "Publishing and maintaining apps on Google Play Store. Ensuring compliance, updates, and smooth release cycles."
         }
     ];
 

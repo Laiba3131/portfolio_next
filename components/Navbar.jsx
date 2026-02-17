@@ -43,7 +43,7 @@ export default function Navbar() {
                     {/* logo */}
                     <div className="relative w-12 h-12 bg-[#B18325] rounded-xl flex items-center justify-center
                         shadow-[0_0_15px_rgba(177,131,37,0.6)] group-hover:shadow-[0_0_25px_rgba(177,131,37,0.8)] transition-all">
-                        <span className="text-black font-bold text-2xl">H</span>
+                        <span className="text-black font-bold text-2xl">L</span>
                     </div>
                 </a>
 

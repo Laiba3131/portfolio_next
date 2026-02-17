@@ -8,12 +8,12 @@ import Link from 'next/link';
 function Banner() {
 
     const userDetails = {
-        name: "Hina Shahzadi",
-        title: "Frontend Developer",
+        name: "Laiba Azam",
+        title: "Flutter Developer",
         image: "/images/profile3.png",
-        description: "Dedicated and results-driven Front End Developer with 3+ years of experience in creating dynamic and visually stunning web applications. specialized in React.js, Next.js, Redux, and API integration.",
-        linkedIn: "https://www.linkedin.com/in/hina-shahzadi-701528294/",
-        github: "#",
+        description: "Flutter Developer with 2+ years of experience building scalable, high-performance mobile applications for Android and iOS. Strong expertise in API integration, BLoC, Provider, GetX state management, and Firebase services.",
+        linkedIn: "https://www.linkedin.com/in/laiba-azam-5ab503220/",
+        github: "https://github.com/Laiba3131",
         facebook: "#",
     };
 
@@ -41,7 +41,7 @@ function Banner() {
                             transition={{ duration: 0.6, delay: 0.1 }}
                             className="uppercase text-white lg:text-[70px] md:text-[40px] text-[30px] font-bold leading-tight"
                         >
-                            <span className="lg:text-[70px] md:text-[40px] text-[30px]">Hey! I am </span><span className="gold-text-gradient">Hina</span>
+                            <span className="lg:text-[70px] md:text-[40px] text-[30px]">Hey! I am </span><span className="gold-text-gradient">Laiba</span>
                         </motion.h1>
 
                         <motion.h2
@@ -98,7 +98,7 @@ function Banner() {
                         <div className="absolute bottom-4 lg:bottom-0 right-2 lg:right-24 z-10 h-[88%] lg:h-[92%]">
                             <img
                                 src={userDetails.image}
-                                alt="Hina Shahzadi"
+                                alt="Laiba Azam"
                                 className="
                                     h-full 
                                     w-auto 
