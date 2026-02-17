@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
 
 export default function AboutMe() {
   return (
-    <section id="about" className="w-full py-20 px-6 md:px-10 lg:px-20 text-white bg-black/10">
+    <section
+      id="about"
+      className="w-full py-20 px-6 md:px-10 lg:px-20 text-white bg-black/10"
+    >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
         <div className="w-full md:w-1/2">
           <div className="w-full h-[500px] bg-linear-to-br from-[#B18325]/20 to-black rounded-3xl overflow-hidden relative group border border-[#B18325]/20">
@@ -25,7 +28,7 @@ export default function AboutMe() {
 
             {/* Profile image with gold color theme */}
             <img
-              src="/images/about2.jpeg"
+              src="/images/about.jpeg"
               alt="Developer"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-500 opacity-60 group-hover:opacity-100"
             />
@@ -40,47 +43,72 @@ export default function AboutMe() {
         <div className="w-full md:w-1/2 space-y-8">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">Flutter Developer</span>
+              <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">
+                Flutter Developer
+              </span>
               <div className="flex">
                 <div className="w-2 h-2 rounded-full bg-[#B18325]"></div>
                 <div className="w-2 h-2 rounded-full bg-[#D7BF75] ml-1"></div>
               </div>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Building <span className="gold-text-gradient">Mobile Apps</span> That Scale
+              Building <span className="gold-text-gradient">Mobile Apps</span>{" "}
+              That Scale
             </h2>
           </div>
 
           <p className="text-gray-300 text-justify text-[16px] lg:text-lg leading-relaxed">
-            Flutter Developer with 2+ years of experience building scalable, high-performance mobile applications for Android and iOS. Strong expertise in API integration, BLoC, Provider, GetX state management, and Firebase services. Experienced in building dashboards, user management systems, and report-based applications using clean architecture and modern UI practices.
+            Flutter Developer with 2+ years of experience building scalable,
+            high-performance mobile applications for Android and iOS. Strong
+            expertise in API integration, BLoC, Provider, GetX state management,
+            and Firebase services. Experienced in building dashboards, user
+            management systems, and report-based applications using clean
+            architecture and modern UI practices.
           </p>
 
           <div className="grid grid-cols-2 gap-8 pt-6">
             <div className="space-y-2 p-6 rounded-xl glass-card border border-[#B18325]/10 hover:border-[#B18325]/30 transition-all duration-300">
               <h4 className="text-white font-bold text-4xl">2+</h4>
-              <p className="text-sm text-[#D7BF75] uppercase tracking-wider font-medium">Years Exp.</p>
+              <p className="text-sm text-[#D7BF75] uppercase tracking-wider font-medium">
+                Years Exp.
+              </p>
             </div>
             <div className="space-y-2 p-6 rounded-xl glass-card border border-[#B18325]/10 hover:border-[#B18325]/30 transition-all duration-300">
               <h4 className="text-white font-bold text-4xl">9+</h4>
-              <p className="text-sm text-[#D7BF75] uppercase tracking-wider font-medium">Projects Done</p>
+              <p className="text-sm text-[#D7BF75] uppercase tracking-wider font-medium">
+                Projects Done
+              </p>
             </div>
           </div>
 
           {/* Tech stack badges */}
           <div className="pt-4">
-            <p className="text-[#B18325] text-sm mb-4 uppercase tracking-wider font-bold">Expertise In</p>
+            <p className="text-[#B18325] text-sm mb-4 uppercase tracking-wider font-bold">
+              Expertise In
+            </p>
             <div className="flex flex-wrap gap-3">
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Flutter</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Firebase</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">BLoC</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">GetX</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">Provider</span>
-              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">REST API</span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">
+                Flutter
+              </span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">
+                Firebase
+              </span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">
+                BLoC
+              </span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">
+                GetX
+              </span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">
+                Provider
+              </span>
+              <span className="px-4 py-2 bg-[#B18325]/10 text-[#D7BF75] rounded-full text-sm border border-[#B18325]/20 hover:bg-[#B18325]/20 transition-all cursor-default">
+                REST API
+              </span>
             </div>
           </div>
         </div>
       </div>
     </section>
-
   );
 }
