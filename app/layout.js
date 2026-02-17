@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Hina Shahzadi — Frontend Developer & UI Designer",
+  title: "Laiba Azam — Frontend Developer & UI Designer",
   description:
-    "Portfolio of Hina Shahzadi, a passionate Frontend Developer and UI Designer specializing in modern web applications, responsive UI, and user-focused digital experiences.",
+    "Portfolio of Laiba Azam, a passionate Frontend Developer and UI Designer specializing in modern web applications, responsive UI, and user-focused digital experiences.",
   keywords: [
-    "Hina Shahzadi",
+    "Laiba Azam",
     "Frontend Developer",
     "React Developer",
     "Next.js Developer",
@@ -31,15 +31,15 @@ export const metadata = {
     "Tailwind CSS",
     "Shadcn UI",
   ],
-  authors: [{ name: "Hina Shahzadi" }],
-  creator: "Hina Shahzadi",
-  publisher: "Hina Shahzadi",
+  authors: [{ name: "Laiba Azam" }],
+  creator: "Laiba Azam",
+  publisher: "Laiba Azam",
   openGraph: {
-    title: "Hina Shahzadi — Frontend Developer & UI Designer",
+    title: "Laiba Azam — Frontend Developer & UI Designer",
     description:
-      "Explore the portfolio of Hina Shahzadi, showcasing projects, skills, UI design work, and modern web development expertise.",
+      "Explore the portfolio of Laiba Azam, showcasing projects, skills, UI design work, and modern web development expertise.",
     url: "https://your-domain.com", // add later
-    siteName: "Hina Shahzadi Portfolio",
+    siteName: "Laiba Azam Portfolio",
     images: [
       {
         url: "https://your-domain.com/og-image.jpg", // optional
@@ -52,9 +52,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hina Shahzadi — Frontend Developer & UI Designer",
+    title: "Laiba Azam — Frontend Developer & UI Designer",
     description:
-      "Welcome to the portfolio of Hina Shahzadi, showcasing modern frontend development and UI design skills.",
+      "Welcome to the portfolio of Laiba Azam, showcasing modern frontend development and UI design skills.",
     images: ["https://your-domain.com/og-image.jpg"], // optional
   },
 };
