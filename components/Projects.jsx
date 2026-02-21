@@ -8,7 +8,7 @@ export default function Projects() {
       title: "BKMC Student App",
       description:
         "Flutter app allowing students to view their attendance, exam results, and assignments. Students can receive daily diary notifications and important announcements.",
-      image: "/images/react.png",
+      image: "/images/bkmc_student.png",
       tech: ["Flutter", "Firebase"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_student&pcampaignid=web_share",
@@ -18,7 +18,7 @@ export default function Projects() {
       title: "BKMC Teacher App",
       description:
         "Flutter app for teachers to manage student records, mark attendance, upload exam results, and notify daily diary.",
-      image: "/images/react.png",
+      image: "/images/bkmc_teacher_app.png",
       tech: ["Flutter", "API"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_teacher&pcampaignid=web_share",
@@ -28,7 +28,7 @@ export default function Projects() {
       title: "Nubes: Unlimited eSIM Data",
       description:
         "Flutter-based travel eSIM app providing high-speed global internet access in 200+ countries with API integration and Firebase services.",
-      image: "/images/node.png",
+      image: "/images/nubes.png",
       tech: ["Flutter", "Firebase", "API"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.arham.nubes&pcampaignid=web_share",
@@ -38,7 +38,7 @@ export default function Projects() {
       title: "Kultureapp",
       description:
         "Next-generation social platform for creators and communities. Developed dashboard and core features using Flutter with API integration.",
-      image: "/images/nextjs.png",
+      image: "/images/kulture.png",
       tech: ["Flutter", "API"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.kulture.kultureapp&pcampaignid=web_share",
@@ -48,26 +48,18 @@ export default function Projects() {
       title: "AutoReady Customer App",
       description:
         "Find fuel and lubricant discounts, deals with stores, and earn points. Built with Flutter for orders and user management.",
-      image: "/images/tailwindcss.png",
+      image: "/images/autoready.png",
       tech: ["Flutter", "GetX", "Provider"],
       liveLink:
         "https://play.google.com/store/apps/details?id=pk.autoready.customer&pcampaignid=web_share",
       sourceLink: "#",
     },
-    {
-      title: "AutoReady Client Portal",
-      description:
-        "Client portal web app for AutoReady—manage orders, dashboards, and business operations.",
-      image: "/images/wordpress.png",
-      tech: ["Flutter", "API"],
-      liveLink: "https://client-stg.autoready.com.pk/",
-      sourceLink: "#",
-    },
+
     {
       title: "Bawarche Online",
       description:
         "Connect with home chefs and tiffin services. Order homemade, hygienic lunch options delivered to your doorstep.",
-      image: "/images/bootstrap.png",
+      image: "/images/bawarchee_online.png",
       tech: ["Flutter", "API"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bawarche_online&pcampaignid=web_share",
@@ -77,7 +69,7 @@ export default function Projects() {
       title: "KGES",
       description:
         "For teachers and parents: upload files, check students, payment history, attendance, and fee balance. Flutter app with APIs integration.",
-      image: "/images/github.png",
+      image: "/images/kges.png",
       tech: ["Flutter", "API"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.newkges.esm&pcampaignid=web_share",
@@ -87,10 +79,37 @@ export default function Projects() {
       title: "Unique Employee Portal",
       description:
         "Portal for Unique Group of Institutes employees: salary details, attendance, leave balance, and more.",
-      image: "/images/bootstrap.png",
+      image: "/images/unique.png",
       tech: ["Flutter", "API"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.cas.uniqueemployee&pcampaignid=web_share",
+      sourceLink: "#",
+    },
+    {
+      title: "Kulture App Dashboard",
+      description:
+        "Admin dashboard for Kulture App—manage users, monitor activity, control access, and handle overall platform operations efficiently.",
+      image: "/images/reevoh_dashboard.png",
+      tech: ["Flutter", "API"],
+      liveLink: "https://incredible-mandazi-f799e9.netlify.app/",
+      sourceLink: "#",
+    },
+    {
+      title: "Reevoh Web",
+      description:
+        "E-commerce web application for Reevoh—browse products, manage cart, place orders, and track purchases with a smooth user experience.",
+      image: "/images/reevoh_web.png",
+      tech: ["Flutter", "API"],
+      liveLink: "https://willowy-starburst-f58ce0.netlify.app/",
+      sourceLink: "#",
+    },
+    {
+      title: "Reevoh Dashboard",
+      description:
+        "Admin dashboard for Reevoh e-commerce platform—manage products, orders, customers, analytics, and overall store operations efficiently.",
+      image: "/images/dashboard.png",
+      tech: ["Flutter", "API"],
+      liveLink: "https://musical-tarsier-674d43.netlify.app/",
       sourceLink: "#",
     },
   ];
@@ -183,14 +202,14 @@ export default function Projects() {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <Button
             variant="link"
             className="text-[#B18325] hover:text-[#D7BF75] text-lg"
           >
             View All Projects <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
