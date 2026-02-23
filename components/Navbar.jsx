@@ -18,10 +18,28 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
+    const sectionIds = ["home", "about", "projects", "services", "contact"];
+
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
+
+      // Update active section based on scroll position (navbar highlights current section)
+      const scrollPosition = window.scrollY + 150; // offset so section highlights when near top
+
+      let current = "home";
+      for (const id of sectionIds) {
+        const el = document.getElementById(id);
+        if (el) {
+          const offsetTop = el.offsetTop;
+          if (scrollPosition >= offsetTop) {
+            current = id;
+          }
+        }
+      }
+      setActiveSection(current);
     };
 
+    handleScroll(); // run once on mount to set initial state
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
