@@ -2,15 +2,23 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import {
+  Menu,
+  Home,
+  User,
+  FolderKanban,
+  Briefcase,
+  Mail,
+  ChevronRight,
+} from "lucide-react";
 
 export default function Navbar() {
   const menuItems = [
-    { name: "Home", id: "home" },
-    { name: "About Me", id: "about" },
-    { name: "Projects", id: "projects" },
-    { name: "Services", id: "services" },
-    { name: "Contact", id: "contact" },
+    { name: "Home", id: "home", icon: Home },
+    { name: "About Me", id: "about", icon: User },
+    { name: "Projects", id: "projects", icon: FolderKanban },
+    { name: "Services", id: "services", icon: Briefcase },
+    { name: "Contact", id: "contact", icon: Mail },
   ];
 
   const [scrolled, setScrolled] = useState(false);
@@ -110,29 +118,69 @@ export default function Navbar() {
 
             <SheetContent
               side="right"
-              className="bg-[#0a0a0a] border-l border-[#B18325]/30 mob-nav"
+              className="w-[min(320px,85vw)] border-0 bg-[#0a0a0a]/98 backdrop-blur-xl mob-nav p-0 flex flex-col shadow-[0_0_60px_rgba(177,131,37,0.08)]"
             >
-              <div className="flex flex-col px-6 items-start space-y-6 mt-10 text-white text-lg font-semibold">
-                {menuItems.map((item) => (
-                  <a
-                    key={item.name}
-                    href={`#${item.id}`}
-                    className="hover:text-[#D7BF75] transition uppercase"
-                    onClick={() => {
-                      setActiveSection(item.id);
-                      setMobileMenuOpen(false);
-                    }}
-                  >
-                    {item.name}
-                  </a>
-                ))}
+              {/* Drawer header */}
+              <div className="flex items-center justify-between px-6 pt-6 pb-4 border-b border-[#B18325]/20">
+                <span className="text-[#B18325] font-semibold tracking-widest text-sm uppercase">
+                  Menu
+                </span>
+                <div className="w-10 h-10 rounded-xl bg-[#B18325]/10 flex items-center justify-center ring-2 ring-[#B18325]/20">
+                  <span className="text-[#B18325] font-bold text-lg">L</span>
+                </div>
+              </div>
 
+              {/* Nav links */}
+              <nav className="flex-1 overflow-y-auto px-4 py-6">
+                <ul className="space-y-1">
+                  {menuItems.map((item) => {
+                    const Icon = item.icon;
+                    const isActive = activeSection === item.id;
+                    return (
+                      <li key={item.id}>
+                        <a
+                          href={`#${item.id}`}
+                          className={`flex items-center gap-4 w-full rounded-xl px-4 py-3.5 text-base font-medium transition-all duration-200 ${
+                            isActive
+                              ? "bg-[#B18325]/15 text-[#D7BF75] border-l-2 border-[#B18325] -ml-[2px] pl-[18px]"
+                              : "text-gray-300 hover:bg-white/5 hover:text-[#D7BF75]"
+                          }`}
+                          onClick={() => {
+                            setActiveSection(item.id);
+                            setMobileMenuOpen(false);
+                          }}
+                        >
+                          <span
+                            className={`flex items-center justify-center w-9 h-9 rounded-lg shrink-0 ${
+                              isActive
+                                ? "bg-[#B18325]/25 text-[#D7BF75]"
+                                : "bg-white/5 text-gray-400"
+                            }`}
+                          >
+                            <Icon className="w-4 h-4" />
+                          </span>
+                          <span className="flex-1">{item.name}</span>
+                          <ChevronRight
+                            className={`w-5 h-5 shrink-0 transition-opacity ${
+                              isActive ? "text-[#B18325]" : "text-gray-500"
+                            }`}
+                          />
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </nav>
+
+              {/* CTA footer */}
+              <div className="p-4 pt-2 border-t border-[#B18325]/20 bg-black/30">
                 <a
                   href="#contact"
-                  className="w-full"
+                  className="block w-full"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  <Button className="mt-4 w-full rounded-full bg-[#B18325] hover:bg-[#D7BF75] hover:text-black px-8 py-6 text-white font-bold text-lg transition-all duration-300">
+                  <Button className="w-full rounded-xl bg-[#B18325] hover:bg-[#D7BF75] hover:text-black py-6 text-white font-bold text-base transition-all duration-300 shadow-[0_0_20px_rgba(177,131,37,0.25)]">
+                    <Mail className="w-5 h-5 mr-2" />
                     LET’S TALK
                   </Button>
                 </a>
