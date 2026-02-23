@@ -41,14 +41,14 @@ export default function Experience() {
   return (
     <section className="w-full py-20 px-6 md:px-10 lg:px-20 text-white bg-black/50">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-16">
+        <div className="mb-16 text-center">
           <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">
             Career Path
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-2">
             Professional <span className="gold-text-gradient">Experience</span>
           </h2>
-          <div className="w-20 h-1 bg-[#B18325] mt-4 rounded-full"></div>
+          <div className="w-20 h-1 bg-[#B18325] mt-4 rounded-full mx-auto"></div>
         </div>
 
         <div className="relative border-l border-[#B18325]/20 ml-4 md:ml-6 space-y-12">

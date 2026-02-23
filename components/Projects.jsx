@@ -132,15 +132,15 @@ export default function Projects() {
       className="w-full py-20 px-6 md:px-10 lg:px-20 bg-black/50 text-white"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="mb-16 text-center md:text-left">
+        <div className="mb-16 text-center">
           <span className="text-[#B18325] font-medium tracking-widest text-sm uppercase">
             My Portfolio
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-2">
             Recent <span className="gold-text-gradient">Projects</span>
           </h2>
-          <div className="w-20 h-1 bg-[#B18325] mt-4 rounded-full md:mx-0 mx-auto"></div>
-          <p className="text-gray-400 mt-6 max-w-2xl text-base md:text-lg">
+          <div className="w-20 h-1 bg-[#B18325] mt-4 rounded-full mx-auto"></div>
+          <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-base md:text-lg">
             Here are some of the projects I've worked on. Each project
             represents a unique challenge and solution.
           </p>
