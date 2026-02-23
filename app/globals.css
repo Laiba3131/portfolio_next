@@ -172,6 +172,17 @@ body::before {
   color: white !important;
 }
 
+/* Mobile drawer close button - gold theme */
+.mob-nav [data-slot="sheet-content"]>button.absolute {
+  color: rgba(255, 255, 255, 0.7);
+  top: 1rem;
+  right: 1rem;
+}
+
+.mob-nav [data-slot="sheet-content"]>button.absolute:hover {
+  color: #D7BF75;
+}
+
 nav {
   backdrop-filter: blur(10px);
   background: linear-gradient(90deg,
