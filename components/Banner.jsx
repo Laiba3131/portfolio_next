@@ -113,7 +113,7 @@ function Banner() {
           </div>
 
           {/* Image Section - Order 1 on mobile, 2 on desktop */}
-          <div className="order-1 lg:order-2 relative h-[400px] md:h-[450px] sm:h-[520px] lg:h-[90vh] overflow-hidden">
+          <div className="order-1 lg:order-2 relative h-[400px] md:h-[450px] sm:h-[480px] lg:h-[90vh] overflow-hidden">
             {/* Profile Image */}
             <div className="absolute bottom-4 lg:bottom-0 right-2 lg:right-24 z-10 h-[88%] lg:h-[92%]">
               <img
@@ -125,7 +125,7 @@ function Banner() {
                                     object-contain
                                     drop-shadow-[0_35px_35px_rgba(0,0,0,0.35)]
                                 "
-                style={{ rotate: "14deg" }}
+                style={{ rotate: "5deg" }}
               />
             </div>
           </div>

@@ -19,7 +19,7 @@ export default function Projects() {
       description:
         "Flutter app for teachers to manage student records, mark attendance, upload exam results, and notify daily diary.",
       image: "/images/bkmc_teacher_app.png",
-      tech: ["Flutter", "API"],
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_teacher&pcampaignid=web_share",
       sourceLink: "#",
@@ -29,7 +29,13 @@ export default function Projects() {
       description:
         "Flutter-based travel eSIM app providing high-speed global internet access in 200+ countries with API integration and Firebase services.",
       image: "/images/nubes.png",
-      tech: ["Flutter", "Firebase", "API"],
+      tech: [
+        "Flutter",
+        "Firebase",
+        "APIs Integration",
+        "Push Notifications",
+        "Stripe SDK",
+      ],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.arham.nubes&pcampaignid=web_share",
       sourceLink: "#",
@@ -39,7 +45,7 @@ export default function Projects() {
       description:
         "Next-generation social platform for creators and communities. Developed dashboard and core features using Flutter with API integration.",
       image: "/images/kulture.png",
-      tech: ["Flutter", "API"],
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.kulture.kultureapp&pcampaignid=web_share",
       sourceLink: "#",
@@ -60,7 +66,7 @@ export default function Projects() {
       description:
         "Connect with home chefs and tiffin services. Order homemade, hygienic lunch options delivered to your doorstep.",
       image: "/images/bawarchee_online.png",
-      tech: ["Flutter", "API"],
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bawarche_online&pcampaignid=web_share",
       sourceLink: "#",
@@ -70,7 +76,7 @@ export default function Projects() {
       description:
         "For teachers and parents: upload files, check students, payment history, attendance, and fee balance. Flutter app with APIs integration.",
       image: "/images/kges.png",
-      tech: ["Flutter", "API"],
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.newkges.esm&pcampaignid=web_share",
       sourceLink: "#",
@@ -80,7 +86,13 @@ export default function Projects() {
       description:
         "Portal for Unique Group of Institutes employees: salary details, attendance, leave balance, and more.",
       image: "/images/unique.png",
-      tech: ["Flutter", "API"],
+      tech: [
+        "Flutter",
+        "Firebase",
+        "APIs Integration",
+        "Push Notifications",
+        "Subscribe Notifications",
+      ],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.cas.uniqueemployee&pcampaignid=web_share",
       sourceLink: "#",
@@ -90,7 +102,7 @@ export default function Projects() {
       description:
         "Admin dashboard for Kulture App—manage users, monitor activity, control access, and handle overall platform operations efficiently.",
       image: "/images/reevoh_dashboard.png",
-      tech: ["Flutter", "API"],
+      tech: ["Flutter", "Firebase", "APIs Integration"],
       liveLink: "https://incredible-mandazi-f799e9.netlify.app/",
       sourceLink: "#",
     },
@@ -99,7 +111,7 @@ export default function Projects() {
       description:
         "E-commerce web application for Reevoh—browse products, manage cart, place orders, and track purchases with a smooth user experience.",
       image: "/images/reevoh_web.png",
-      tech: ["Flutter", "API"],
+      tech: ["Flutter", "Firebase", "APIs Integration"],
       liveLink: "https://willowy-starburst-f58ce0.netlify.app/",
       sourceLink: "#",
     },
@@ -108,7 +120,7 @@ export default function Projects() {
       description:
         "Admin dashboard for Reevoh e-commerce platform—manage products, orders, customers, analytics, and overall store operations efficiently.",
       image: "/images/dashboard.png",
-      tech: ["Flutter", "API"],
+      tech: ["Flutter", "Firebase", "APIs Integration"],
       liveLink: "https://musical-tarsier-674d43.netlify.app/",
       sourceLink: "#",
     },
