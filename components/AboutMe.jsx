@@ -58,7 +58,7 @@ export default function AboutMe() {
           </div>
 
           <p className="text-gray-300 text-justify text-[16px] lg:text-lg leading-relaxed">
-            Flutter Developer with 2+ years of experience building scalable,
+            Flutter Developer with 3+ years of experience building scalable,
             high-performance mobile applications for Android and iOS. Strong
             expertise in API integration, BLoC, Provider, GetX state management,
             and Firebase services. Experienced in building dashboards, user

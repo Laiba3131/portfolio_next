@@ -7,7 +7,7 @@ export default function Projects() {
     {
       title: "Cothm-Students Facilitation",
       description:
-        "Flutter app allowing students to view their attendance, exam results, and assignments. Students can receive daily diary notifications and important announcements.",
+        "The Cothm-Students Facilitation App allows parents to stay connected with their child’s academic activities. Parents can view daily attendance, exam date sheets, and fee vouchers in one place.The app provides quick, secure, and easy access to important student information.",
       image: "/images/cothm.png",
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
@@ -18,7 +18,7 @@ export default function Projects() {
       description:
         "Flutter app allowing students to view their attendance, exam results, and assignments. Students can receive daily diary notifications and important announcements.",
       image: "/images/bkmc_student.png",
-      tech: ["Flutter", "Firebase"],
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_student&pcampaignid=web_share",
       sourceLink: "#",
