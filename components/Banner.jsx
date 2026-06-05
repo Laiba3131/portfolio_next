@@ -119,12 +119,7 @@ function Banner() {
               <img
                 src={userDetails.image}
                 alt="Laiba Azam"
-                className="
-                                    h-full 
-                                    w-auto 
-                                    object-contain
-                                    drop-shadow-[0_35px_35px_rgba(0,0,0,0.35)]
-                                "
+                className="h-full w-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.35)]"
                 style={{ rotate: "5deg" }}
               />
             </div>

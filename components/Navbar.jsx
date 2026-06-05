@@ -64,9 +64,7 @@ export default function Navbar() {
         <a href="#home" className="relative flex items-center group">
           {/* animated ring */}
           <div
-            className="absolute inset-0 rounded-xl animate-spin-slow 
-                        bg-[conic-gradient(from_0deg,#000000,#B18325,#D7BF75,#B18325,#000000)] 
-                        blur-[2px] opacity-80 group-hover:opacity-100 transition-opacity"
+            className="absolute inset-0 rounded-xl animate-spin-slow bg-[conic-gradient(from_0deg,#000000,#B18325,#D7BF75,#B18325,#000000)] blur-[2px] opacity-80 group-hover:opacity-100 transition-opacity"
           ></div>
 
           {/* inner glow mask */}
@@ -74,8 +72,7 @@ export default function Navbar() {
 
           {/* logo */}
           <div
-            className="relative w-12 h-12 bg-[#B18325] rounded-xl flex items-center justify-center
-                        shadow-[0_0_15px_rgba(177,131,37,0.6)] group-hover:shadow-[0_0_25px_rgba(177,131,37,0.8)] transition-all"
+            className="relative w-12 h-12 bg-[#B18325] rounded-xl flex items-center justify-center shadow-[0_0_15px_rgba(177,131,37,0.6)] group-hover:shadow-[0_0_25px_rgba(177,131,37,0.8)] transition-all"
           >
             <span className="text-black font-bold text-2xl">L</span>
           </div>

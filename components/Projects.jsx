@@ -5,6 +5,15 @@ import { Button } from "@/components/ui/button";
 export default function Projects() {
   const projects = [
     {
+      title: "Cothm-Students Facilitation",
+      description:
+        "Flutter app allowing students to view their attendance, exam results, and assignments. Students can receive daily diary notifications and important announcements.",
+      image: "/images/cothm.png",
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.cothm&pcampaignid=web_share",
+      sourceLink: "#",
+    }, {
       title: "BKMC Student App",
       description:
         "Flutter app allowing students to view their attendance, exam results, and assignments. Students can receive daily diary notifications and important announcements.",
@@ -18,7 +27,7 @@ export default function Projects() {
       title: "BKMC Teacher App",
       description:
         "Flutter app for teachers to manage student records, mark attendance, upload exam results, and notify daily diary.",
-      image: "/images/bkmc_teacher_app.png",
+      image: "/images/bkmcTeacher.png",
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_teacher&pcampaignid=web_share",

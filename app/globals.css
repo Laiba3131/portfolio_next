@@ -163,7 +163,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: url("/noise.png");
+  /* background: url("/noise.png"); */
   opacity: 0.04;
   pointer-events: none;
 }

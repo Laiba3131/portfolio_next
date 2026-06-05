@@ -67,7 +67,7 @@ export default function Contact() {
                         </a>
                     </div>
 
-                    <a href="/LaibaAzam-2.pdf" download="LaibaAzam-2.pdf">
+                    <a href="/LaibaAzam.pdf" download="LaibaAzam.pdf">
                         <Button className="rounded-full bg-[#B18325] hover:bg-[#D7BF75] text-black font-bold text-lg px-10 py-6 mt-4 shadow-[0_0_20px_rgba(177,131,37,0.3)] transition-all">
                             Download CV
                         </Button>
