@@ -36,7 +36,7 @@ export default function Projects() {
       title: "Cothm-Students Facilitation",
       description:
         "The Cothm-Students Facilitation App allows parents to stay connected with their child’s academic activities. Parents can view daily attendance, exam date sheets, and fee vouchers in one place.The app provides quick, secure, and easy access to important student information.",
-      image: "/images/cothm.png",
+      image: "/images/COTHM.png",
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.cothm&pcampaignid=web_share",
