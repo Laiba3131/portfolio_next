@@ -16,7 +16,7 @@ export default function Projects() {
     }, {
       title: "CC OKARA",
       description:
-        "About this app.This student app helps you stay organized and updated with your academic life.Easily track attendance, check results, and view daily diary updates.Stay informed about assignments, notices, and important activities.Manage your fee details anytime in one convenient place.",
+        "This student app helps you stay organized and updated with your academic life.Easily track attendance, check results, and view daily diary updates.Stay informed about assignments, notices, and important activities.Manage your fee details anytime in one convenient place.",
       image: "/images/ccpApp.png",
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
