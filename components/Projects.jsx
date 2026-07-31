@@ -5,6 +5,34 @@ import { Button } from "@/components/ui/button";
 export default function Projects() {
   const projects = [
     {
+      title: "Vox Trade",
+      description:
+        "Trade smarter with VoxTrade – institutional-grade intelligence for retail investors.\nINSIDER INTELLIGENCE\n - Real-time insider trades\n - Congress member trades with party & committee info\n - Trump Tracker: AI sentiment analysis on Truth Social posts",
+      image: "/images/vox.png",
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.app.voxtrade&pcampaignid=web_share",
+      sourceLink: "#",
+    }, {
+      title: "CC OKARA",
+      description:
+        "Trade smarter with VoxTrade – institutional-grade intelligence for retail investors.\nINSIDER INTELLIGENCE\n - Real-time insider trades\n - Congress member trades with party & committee info\n - Trump Tracker: AI sentiment analysis on Truth Social posts",
+      image: "/images/ccpApp.png",
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.app.cadet_college_okara&pcampaignid=web_share",
+      sourceLink: "#",
+    }, {
+      title: "DHA EDUCATION SYSTEM (Staff)",
+      description:
+        "• This app is used for teachers to manage their student records.\n• In this app, teacher notify the daily diary of their students.\n• This app allows us to mark the students' attendance.        \n• Teachers can easily upload their students' exam results.",
+      image: "/images/dha.png",
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.cas.dhalTeacherApp&pcampaignid=web_share",
+      sourceLink: "#",
+    },
+    {
       title: "Cothm-Students Facilitation",
       description:
         "The Cothm-Students Facilitation App allows parents to stay connected with their child’s academic activities. Parents can view daily attendance, exam date sheets, and fee vouchers in one place.The app provides quick, secure, and easy access to important student information.",
