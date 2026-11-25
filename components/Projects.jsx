@@ -5,11 +5,48 @@ import { Button } from "@/components/ui/button";
 export default function Projects() {
   const projects = [
     {
+      title: "Vox Trade",
+      description:
+        "Trade smarter with VoxTrade – institutional-grade intelligence for retail investors.\nINSIDER INTELLIGENCE\n - Real-time insider trades\n - Congress member trades with party & committee info\n - Trump Tracker: AI sentiment analysis on Truth Social posts",
+      image: "/images/vox.png",
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.app.voxtrade&pcampaignid=web_share",
+      sourceLink: "#",
+    }, {
+      title: "CC OKARA",
+      description:
+        "This student app helps you stay organized and updated with your academic life.Easily track attendance, check results, and view daily diary updates.Stay informed about assignments, notices, and important activities.Manage your fee details anytime in one convenient place.",
+      image: "/images/ccpApp.png",
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.app.cadet_college_okara&pcampaignid=web_share",
+      sourceLink: "#",
+    }, {
+      title: "DHA EDUCATION SYSTEM (Staff)",
+      description:
+        "• This app is used for teachers to manage their student records.\n• In this app, teacher notify the daily diary of their students.\n• This app allows us to mark the students' attendance.        \n• Teachers can easily upload their students' exam results.",
+      image: "/images/dha.png",
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.cas.dhalTeacherApp&pcampaignid=web_share",
+      sourceLink: "#",
+    },
+    {
+      title: "Cothm-Students Facilitation",
+      description:
+        "The Cothm-Students Facilitation App allows parents to stay connected with their child’s academic activities. Parents can view daily attendance, exam date sheets, and fee vouchers in one place.The app provides quick, secure, and easy access to important student information.",
+      image: "/images/COTHM.png",
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.cothm&pcampaignid=web_share",
+      sourceLink: "#",
+    }, {
       title: "BKMC Student App",
       description:
         "Flutter app allowing students to view their attendance, exam results, and assignments. Students can receive daily diary notifications and important announcements.",
       image: "/images/bkmc_student.png",
-      tech: ["Flutter", "Firebase"],
+      tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_student&pcampaignid=web_share",
       sourceLink: "#",
@@ -18,7 +55,7 @@ export default function Projects() {
       title: "BKMC Teacher App",
       description:
         "Flutter app for teachers to manage student records, mark attendance, upload exam results, and notify daily diary.",
-      image: "/images/bkmc_teacher_app.png",
+      image: "/images/bkmcTeacher.png",
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_teacher&pcampaignid=web_share",

@@ -58,7 +58,7 @@ export default function AboutMe() {
           </div>
 
           <p className="text-gray-300 text-justify text-[16px] lg:text-lg leading-relaxed">
-            Flutter Developer with 2+ years of experience building scalable,
+            Flutter Developer with 3+ years of experience building scalable,
             high-performance mobile applications for Android and iOS. Strong
             expertise in API integration, BLoC, Provider, GetX state management,
             and Firebase services. Experienced in building dashboards, user
@@ -68,7 +68,7 @@ export default function AboutMe() {
 
           <div className="grid grid-cols-2 gap-8 pt-6">
             <div className="space-y-2 p-6 rounded-xl glass-card border border-[#B18325]/10 hover:border-[#B18325]/30 transition-all duration-300">
-              <h4 className="text-white font-bold text-4xl">2+</h4>
+              <h4 className="text-white font-bold text-4xl">3+</h4>
               <p className="text-sm text-[#D7BF75] uppercase tracking-wider font-medium">
                 Years Exp.
               </p>

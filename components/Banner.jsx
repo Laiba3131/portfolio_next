@@ -11,7 +11,7 @@ function Banner() {
     title: "Flutter Developer",
     image: "/images/profile2.png",
     description:
-      "Flutter Developer with 2+ years of experience building scalable, high-performance mobile applications for Android and iOS. Strong expertise in API integration, BLoC, Provider, GetX state management, and Firebase services.",
+      "Flutter Developer with 3+ years of experience building scalable, high-performance mobile applications for Android and iOS. Strong expertise in API integration, BLoC, Provider, GetX state management, and Firebase services.",
     linkedIn: "https://www.linkedin.com/in/laiba-azam-5ab503220/",
     github: "https://github.com/Laiba3131",
     facebook: "#",
@@ -119,12 +119,7 @@ function Banner() {
               <img
                 src={userDetails.image}
                 alt="Laiba Azam"
-                className="
-                                    h-full 
-                                    w-auto 
-                                    object-contain
-                                    drop-shadow-[0_35px_35px_rgba(0,0,0,0.35)]
-                                "
+                className="h-full w-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.35)]"
                 style={{ rotate: "5deg" }}
               />
             </div>
