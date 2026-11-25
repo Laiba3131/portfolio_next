@@ -1,5 +1,5 @@
 import React from "react";
-import { ExternalLink, Github, ArrowRight } from "lucide-react";
+import { ExternalLink, Apple } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Projects() {
@@ -12,8 +12,9 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.app.voxtrade&pcampaignid=web_share",
-      sourceLink: "#",
-    }, {
+      iosLink: "https://apps.apple.com/app/voxtrade/id6759360506",
+    },
+    {
       title: "CC OKARA",
       description:
         "This student app helps you stay organized and updated with your academic life.Easily track attendance, check results, and view daily diary updates.Stay informed about assignments, notices, and important activities.Manage your fee details anytime in one convenient place.",
@@ -21,8 +22,9 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.app.cadet_college_okara&pcampaignid=web_share",
-      sourceLink: "#",
-    }, {
+      iosLink: null,
+    },
+    {
       title: "DHA EDUCATION SYSTEM (Staff)",
       description:
         "• This app is used for teachers to manage their student records.\n• In this app, teacher notify the daily diary of their students.\n• This app allows us to mark the students' attendance.        \n• Teachers can easily upload their students' exam results.",
@@ -30,7 +32,7 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.cas.dhalTeacherApp&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: "https://apps.apple.com/app/dha-education-system-staff/id6790289283",
     },
     {
       title: "Cothm-Students Facilitation",
@@ -40,8 +42,9 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.cothm&pcampaignid=web_share",
-      sourceLink: "#",
-    }, {
+      iosLink: "https://apps.apple.com/app/cothm-students-facilitation/id6761713540",
+    },
+    {
       title: "BKMC Student App",
       description:
         "Flutter app allowing students to view their attendance, exam results, and assignments. Students can receive daily diary notifications and important announcements.",
@@ -49,7 +52,7 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications", "Bloc"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_student&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: "https://apps.apple.com/app/bkmc-student/id6757187719",
     },
     {
       title: "BKMC Teacher App",
@@ -59,7 +62,7 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bkmc_teacher&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: "https://apps.apple.com/app/bkmc-teacher/id6757149031",
     },
     {
       title: "Nubes: Unlimited eSIM Data",
@@ -75,7 +78,7 @@ export default function Projects() {
       ],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.arham.nubes&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: "https://apps.apple.com/app/nubes-unlimited-esim-data/id6751854186",
     },
     {
       title: "Kultureapp",
@@ -85,7 +88,7 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.kulture.kultureapp&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: "https://apps.apple.com/app/kultureapp-connect-create/id6752290438",
     },
     {
       title: "AutoReady Customer App",
@@ -95,9 +98,8 @@ export default function Projects() {
       tech: ["Flutter", "GetX", "Provider"],
       liveLink:
         "https://play.google.com/store/apps/details?id=pk.autoready.customer&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: null,
     },
-
     {
       title: "Bawarche Online",
       description:
@@ -106,7 +108,7 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.bawarche_online&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: null,
     },
     {
       title: "KGES",
@@ -116,7 +118,7 @@ export default function Projects() {
       tech: ["Flutter", "Firebase", "APIs Integration", "Push Notifications"],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.newkges.esm&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: "https://apps.apple.com/app/kges/id6480458189",
     },
     {
       title: "Unique Employee Portal",
@@ -132,7 +134,7 @@ export default function Projects() {
       ],
       liveLink:
         "https://play.google.com/store/apps/details?id=com.cas.uniqueemployee&pcampaignid=web_share",
-      sourceLink: "#",
+      iosLink: null,
     },
     {
       title: "Kulture App Dashboard",
@@ -141,7 +143,7 @@ export default function Projects() {
       image: "/images/reevoh_dashboard.png",
       tech: ["Flutter", "Firebase", "APIs Integration"],
       liveLink: "https://incredible-mandazi-f799e9.netlify.app/",
-      sourceLink: "#",
+      iosLink: null,
     },
     {
       title: "Reevoh Web",
@@ -150,7 +152,7 @@ export default function Projects() {
       image: "/images/reevoh_web.png",
       tech: ["Flutter", "Firebase", "APIs Integration"],
       liveLink: "https://willowy-starburst-f58ce0.netlify.app/",
-      sourceLink: "#",
+      iosLink: null,
     },
     {
       title: "Reevoh Dashboard",
@@ -159,7 +161,7 @@ export default function Projects() {
       image: "/images/dashboard.png",
       tech: ["Flutter", "Firebase", "APIs Integration"],
       liveLink: "https://musical-tarsier-674d43.netlify.app/",
-      sourceLink: "#",
+      iosLink: null,
     },
   ];
 
@@ -184,81 +186,86 @@ export default function Projects() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="group glass-card rounded-2xl overflow-hidden hover:-translate-y-2 transition-all duration-300 border border-[#B18325]/10 hover:border-[#B18325]/50 flex flex-col h-full shadow-[0_4px_30px_rgba(0,0,0,0.1)]"
-            >
-              {/* Image Container */}
-              <div className="relative h-48 overflow-hidden">
-                <div className="absolute inset-0 bg-[#B18325]/10 group-hover:bg-transparent transition duration-500 z-10"></div>
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 opacity-80 group-hover:opacity-100"
-                />
-              </div>
+          {projects.map((project, index) => {
+            const hasLiveLink = Boolean(
+              project.liveLink && project.liveLink !== "#"
+            );
+            const iosUrl = project.iosLink || project.iosLiveLink;
+            const hasIosLink = Boolean(iosUrl && iosUrl !== "#");
 
-              {/* Content */}
-              <div className="p-6 flex-1 flex flex-col">
-                <h3 className="text-2xl font-bold mb-3 group-hover:text-[#D7BF75] transition">
-                  {project.title}
-                </h3>
-                <p className="text-gray-400 text-justify text-sm leading-relaxed mb-6 flex-1">
-                  {project.description}
-                </p>
-
-                {/* Tech Stack */}
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {project.tech.map((tech, i) => (
-                    <span
-                      key={i}
-                      className="text-xs font-semibold px-3 py-1 bg-[#B18325]/10 text-[#D7BF75] rounded-full border border-[#B18325]/20"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+            return (
+              <div
+                key={index}
+                className="group glass-card rounded-2xl overflow-hidden hover:-translate-y-2 transition-all duration-300 border border-[#B18325]/10 hover:border-[#B18325]/50 flex flex-col h-full shadow-[0_4px_30px_rgba(0,0,0,0.1)]"
+              >
+                {/* Image Container */}
+                <div className="relative h-48 overflow-hidden">
+                  <div className="absolute inset-0 bg-[#B18325]/10 group-hover:bg-transparent transition duration-500 z-10"></div>
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 opacity-80 group-hover:opacity-100"
+                  />
                 </div>
 
-                {/* Buttons using Button component if available or standard button */}
-                <div className="flex gap-4 mt-auto">
-                  <a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1"
-                  >
-                    <Button className="w-full bg-[#B18325] hover:bg-[#D7BF75] text-black font-bold rounded-lg group-hover:shadow-[0_0_15px_rgba(177,131,37,0.3)] transition-all">
-                      <ExternalLink className="mr-2 h-4 w-4" /> Live
-                    </Button>
-                  </a>
-                  <a
-                    href={project.sourceLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1"
-                  >
-                    <Button
-                      variant="outline"
-                      className="w-full border-[#B18325]/30 text-[#D7BF75] hover:text-black hover:bg-[#B18325] hover:border-[#B18325] bg-transparent rounded-lg transition-all duration-300"
-                    >
-                      <Github className="mr-2 h-4 w-4" /> Code
-                    </Button>
-                  </a>
+                {/* Content */}
+                <div className="p-6 flex-1 flex flex-col">
+                  <h3 className="text-2xl font-bold mb-3 group-hover:text-[#D7BF75] transition">
+                    {project.title}
+                  </h3>
+                  <p className="text-gray-400 text-justify text-sm leading-relaxed mb-6 flex-1">
+                    {project.description}
+                  </p>
+
+                  {/* Tech Stack */}
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {project.tech.map((tech, i) => (
+                      <span
+                        key={i}
+                        className="text-xs font-semibold px-3 py-1 bg-[#B18325]/10 text-[#D7BF75] rounded-full border border-[#B18325]/20"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Action Buttons */}
+                  {(hasLiveLink || hasIosLink) && (
+                    <div className="flex gap-4 mt-auto">
+                      {hasLiveLink && (
+                        <a
+                          href={project.liveLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-1"
+                        >
+                          <Button className="w-full bg-[#B18325] hover:bg-[#D7BF75] text-black font-bold rounded-lg group-hover:shadow-[0_0_15px_rgba(177,131,37,0.3)] transition-all">
+                            <ExternalLink className="mr-2 h-4 w-4" /> Live
+                          </Button>
+                        </a>
+                      )}
+                      {hasIosLink && (
+                        <a
+                          href={iosUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-1"
+                        >
+                          <Button
+                            variant="outline"
+                            className="w-full border-[#B18325]/30 text-[#D7BF75] hover:text-black hover:bg-[#B18325] hover:border-[#B18325] bg-transparent rounded-lg transition-all duration-300"
+                          >
+                            <Apple className="mr-2 h-4 w-4" /> iOS
+                          </Button>
+                        </a>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
-
-        {/* <div className="mt-16 text-center">
-          <Button
-            variant="link"
-            className="text-[#B18325] hover:text-[#D7BF75] text-lg"
-          >
-            View All Projects <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </div> */}
       </div>
     </section>
   );
